@@ -1,0 +1,98 @@
+{
+  "theme": "Light",
+  "archetype": "1 (Organic & Earthy)",
+  "aesthetic": "Warm minimal (Japanese stationery meets premium learning)",
+  "colors": {
+    "background": "#F7F3EE",
+    "accent": "#C97A3A",
+    "card_background": "#FFFFFF",
+    "text_primary": "#2D2824",
+    "text_secondary": "#7A726A",
+    "success": "#5C8065",
+    "error": "#B3504B",
+    "border": "#E8E2D9",
+    "interactive_highlight": "#F0E8DD"
+  },
+  "typography": {
+    "primary_font": "System",
+    "korean_font_recommendation": "Pretendard or System (Apple SD Gothic Neo/Noto Sans KR)",
+    "scale": {
+      "hanja_display": { "fontSize": 80, "fontWeight": "300", "lineHeight": 96 },
+      "h1": { "fontSize": 32, "fontWeight": "700", "lineHeight": 40 },
+      "h2": { "fontSize": 24, "fontWeight": "600", "lineHeight": 32 },
+      "h3": { "fontSize": 20, "fontWeight": "600", "lineHeight": 28 },
+      "body_large": { "fontSize": 18, "fontWeight": "400", "lineHeight": 28 },
+      "body": { "fontSize": 16, "fontWeight": "400", "lineHeight": 24 },
+      "caption": { "fontSize": 14, "fontWeight": "500", "lineHeight": 20 },
+      "overline": { "fontSize": 12, "fontWeight": "700", "letterSpacing": 1.2, "textTransform": "uppercase" }
+    }
+  },
+  "spacing_and_radius": {
+    "grid_base": 8,
+    "spacing": {
+      "xs": 4, "sm": 8, "md": 16, "lg": 24, "xl": 32, "2xl": 48
+    },
+    "border_radius": {
+      "sm": 8, "md": 16, "lg": 24, "pill": 9999
+    }
+  },
+  "shadows": {
+    "card": {
+      "shadowColor": "#2D2824",
+      "shadowOffset": { "width": 0, "height": 4 },
+      "shadowOpacity": 0.06,
+      "shadowRadius": 16,
+      "elevation": 2
+    },
+    "floating_action": {
+      "shadowColor": "#C97A3A",
+      "shadowOffset": { "width": 0, "height": 8 },
+      "shadowOpacity": 0.2,
+      "shadowRadius": 24,
+      "elevation": 6
+    }
+  },
+  "layout_patterns": {
+    "home_daily_path": {
+      "description": "Header with streak counter (terracotta flame icon). A massive, inviting 'Daily Path' card occupying the top half of the screen. Inside: progress bar, 'Learn 5 New' + 'Quiz' steps. Below: horizontal scroll of levels (8급 to 3급).",
+      "alignment": "Left-aligned content with generous 24px padding."
+    },
+    "character_browsing_carousel": {
+      "description": "Full-screen horizontal paging ScrollView. Each character is a single screen-height card (minus header/nav). Clean, vast negative space. Massive Hanja centered. Swipe to move.",
+      "padding": "32px internal padding."
+    },
+    "character_detail": {
+      "description": "Split view. Top 40%: The Hanja rendering (WebView with HanziWriter), soft #F7F3EE background. Bottom 60%: White card overlay sliding up (with 24px border radius on top corners), containing reading (음/훈), English meaning, radical, and the 'Word-First' list.",
+      "word_first_list": "Words displayed as thick pill-shaped rows (#F0E8DD background) with the target Hanja highlighted in #C97A3A."
+    },
+    "quiz_cards": {
+      "description": "Flashcard metaphor. Large centered question. 3-4 massive answer buttons stacked vertically. Tapping an answer triggers haptic feedback and turns the button #5C8065 (Success) or #B3504B (Error)."
+    }
+  },
+  "navigation": {
+    "pattern": "Bottom Tab Bar (5 items)",
+    "style": "Translucent white or solid white with top border #E8E2D9. No text labels, just clean icons, or very tiny text.",
+    "icons_library": "@expo/vector-icons/Feather",
+    "tabs": [
+      { "name": "Home", "icon": "home" },
+      { "name": "Levels", "icon": "book-open" },
+      { "name": "Daily Quiz", "icon": "target" },
+      { "name": "Saved", "icon": "bookmark" },
+      { "name": "Search", "icon": "search" }
+    ]
+  },
+  "micro_interactions": {
+    "entrance": "Cards fade and slide up slightly (Y: 20 -> 0) on mount.",
+    "feedback": "Use expo-haptics for all correct/incorrect quiz answers and completing a daily path.",
+    "swipe": "Spring-based physics for character carousel swiping."
+  },
+  "testing_and_accessibility": {
+    "data_testid_rule": "ALL interactive components, buttons, inputs, and major views MUST have a 'data-testid' attribute (e.g., 'home-daily-start-button', 'quiz-answer-option-1', 'nav-tab-search').",
+    "contrast": "Ensure text over the terracotta accent is pure white for APCA readability."
+  },
+  "general_instructions": {
+    "files": "Use .js files (no .tsx).",
+    "emojis": "FORBIDDEN. Use Feather icons exclusively.",
+    "styling": "Use standard React Native StyleSheet unless a specific library like NativeWind is set up. Do not use generic web CSS."
+  }
+}
