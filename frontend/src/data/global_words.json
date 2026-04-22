@@ -1,187 +1,4335 @@
-[
-  { "word": "학교", "hanja": "學校", "meaning": "school", "chars": ["學", "校"] },
-  { "word": "학생", "hanja": "學生", "meaning": "student", "chars": ["學", "生"] },
-  { "word": "학습", "hanja": "學習", "meaning": "study, learning", "chars": ["學", "習"] },
-  { "word": "대학", "hanja": "大學", "meaning": "university", "chars": ["大", "學"] },
-  { "word": "선생", "hanja": "先生", "meaning": "teacher", "chars": ["先", "生"] },
-  { "word": "학년", "hanja": "學年", "meaning": "school year", "chars": ["學", "年"] },
-  { "word": "교문", "hanja": "校門", "meaning": "school gate", "chars": ["校", "門"] },
-  { "word": "생일", "hanja": "生日", "meaning": "birthday", "chars": ["生", "日"] },
-  { "word": "일월", "hanja": "一月", "meaning": "January", "chars": ["一", "月"] },
-  { "word": "이월", "hanja": "二月", "meaning": "February", "chars": ["二", "月"] },
-  { "word": "삼월", "hanja": "三月", "meaning": "March", "chars": ["三", "月"] },
-  { "word": "매일", "hanja": "每日", "meaning": "every day", "chars": ["每", "日"] },
-  { "word": "매월", "hanja": "每月", "meaning": "every month", "chars": ["每", "月"] },
-  { "word": "내년", "hanja": "來年", "meaning": "next year", "chars": ["年"] },
-  { "word": "작년", "hanja": "昨年", "meaning": "last year", "chars": ["年"] },
-  { "word": "한국", "hanja": "韓國", "meaning": "Korea", "chars": ["韓", "國"] },
-  { "word": "국민", "hanja": "國民", "meaning": "people of a nation", "chars": ["國", "民"] },
-  { "word": "국가", "hanja": "國家", "meaning": "nation", "chars": ["國", "家"] },
-  { "word": "군인", "hanja": "軍人", "meaning": "soldier", "chars": ["軍", "人"] },
-  { "word": "가족", "hanja": "家族", "meaning": "family", "chars": ["家"] },
-  { "word": "부모", "hanja": "父母", "meaning": "parents", "chars": ["父", "母"] },
-  { "word": "형제", "hanja": "兄弟", "meaning": "brothers", "chars": ["兄", "弟"] },
-  { "word": "남자", "hanja": "男子", "meaning": "man", "chars": ["男", "子"] },
-  { "word": "여자", "hanja": "女子", "meaning": "woman", "chars": ["女", "子"] },
-  { "word": "인간", "hanja": "人間", "meaning": "human being", "chars": ["人", "間"] },
-  { "word": "사람", "hanja": "人", "meaning": "person", "chars": ["人"] },
-  { "word": "산수", "hanja": "山水", "meaning": "landscape, scenery", "chars": ["山", "水"] },
-  { "word": "화산", "hanja": "火山", "meaning": "volcano", "chars": ["火", "山"] },
-  { "word": "수목", "hanja": "樹木", "meaning": "trees", "chars": ["木"] },
-  { "word": "금요일", "hanja": "金曜日", "meaning": "Friday", "chars": ["金", "日"] },
-  { "word": "월요일", "hanja": "月曜日", "meaning": "Monday", "chars": ["月", "日"] },
-  { "word": "화요일", "hanja": "火曜日", "meaning": "Tuesday", "chars": ["火", "日"] },
-  { "word": "수요일", "hanja": "水曜日", "meaning": "Wednesday", "chars": ["水", "日"] },
-  { "word": "목요일", "hanja": "木曜日", "meaning": "Thursday", "chars": ["木", "日"] },
-  { "word": "토요일", "hanja": "土曜日", "meaning": "Saturday", "chars": ["土", "日"] },
-  { "word": "일요일", "hanja": "日曜日", "meaning": "Sunday", "chars": ["日"] },
-  { "word": "중국", "hanja": "中國", "meaning": "China", "chars": ["中", "國"] },
-  { "word": "중학교", "hanja": "中學校", "meaning": "middle school", "chars": ["中", "學", "校"] },
-  { "word": "왕국", "hanja": "王國", "meaning": "kingdom", "chars": ["王", "國"] },
-  { "word": "백성", "hanja": "百姓", "meaning": "common people", "chars": [] },
-  { "word": "청년", "hanja": "靑年", "meaning": "youth", "chars": ["靑", "年"] },
-  { "word": "만세", "hanja": "萬歲", "meaning": "long live", "chars": ["萬"] },
-  { "word": "장군", "hanja": "將軍", "meaning": "general", "chars": ["軍"] },
-  { "word": "문학", "hanja": "文學", "meaning": "literature", "chars": ["文", "學"] },
-  { "word": "문자", "hanja": "文字", "meaning": "letter, character", "chars": ["文", "字"] },
-  { "word": "한자", "hanja": "漢字", "meaning": "Chinese character", "chars": ["字"] },
-  { "word": "한국어", "hanja": "韓國語", "meaning": "Korean language", "chars": ["韓", "國", "語"] },
-  { "word": "영어", "hanja": "英語", "meaning": "English", "chars": ["語"] },
-  { "word": "언어", "hanja": "言語", "meaning": "language", "chars": ["語"] },
-  { "word": "대화", "hanja": "對話", "meaning": "conversation", "chars": ["話"] },
-  { "word": "전화", "hanja": "電話", "meaning": "telephone", "chars": ["電", "話"] },
-  { "word": "전기", "hanja": "電氣", "meaning": "electricity", "chars": ["電"] },
-  { "word": "자동차", "hanja": "自動車", "meaning": "automobile", "chars": ["自", "動", "車"] },
-  { "word": "기차", "hanja": "汽車", "meaning": "train", "chars": ["車"] },
-  { "word": "식사", "hanja": "食事", "meaning": "meal", "chars": ["食", "事"] },
-  { "word": "식당", "hanja": "食堂", "meaning": "cafeteria", "chars": ["食"] },
-  { "word": "음식", "hanja": "飮食", "meaning": "food", "chars": ["食"] },
-  { "word": "인구", "hanja": "人口", "meaning": "population", "chars": ["人", "口"] },
-  { "word": "입구", "hanja": "入口", "meaning": "entrance", "chars": ["入", "口"] },
-  { "word": "출구", "hanja": "出口", "meaning": "exit", "chars": ["出", "口"] },
-  { "word": "수족", "hanja": "手足", "meaning": "hands and feet", "chars": ["手", "足"] },
-  { "word": "중심", "hanja": "中心", "meaning": "center", "chars": ["中", "心"] },
-  { "word": "자연", "hanja": "自然", "meaning": "nature", "chars": ["自", "然"] },
-  { "word": "천지", "hanja": "天地", "meaning": "heaven and earth", "chars": ["天", "地"] },
-  { "word": "시간", "hanja": "時間", "meaning": "time", "chars": ["時", "間"] },
-  { "word": "공간", "hanja": "空間", "meaning": "space", "chars": ["間"] },
-  { "word": "매년", "hanja": "每年", "meaning": "every year", "chars": ["每", "年"] },
-  { "word": "전년", "hanja": "前年", "meaning": "previous year", "chars": ["前", "年"] },
-  { "word": "후년", "hanja": "後年", "meaning": "next year", "chars": ["後", "年"] },
-  { "word": "오전", "hanja": "午前", "meaning": "morning (a.m.)", "chars": ["前"] },
-  { "word": "오후", "hanja": "午後", "meaning": "afternoon (p.m.)", "chars": ["後"] },
-  { "word": "상하", "hanja": "上下", "meaning": "up and down", "chars": ["上", "下"] },
-  { "word": "좌우", "hanja": "左右", "meaning": "left and right", "chars": ["左", "右"] },
-  { "word": "내외", "hanja": "內外", "meaning": "inside and outside", "chars": ["內", "外"] },
-  { "word": "입학", "hanja": "入學", "meaning": "school admission", "chars": ["入", "學"] },
-  { "word": "출입", "hanja": "出入", "meaning": "entry and exit", "chars": ["出", "入"] },
-  { "word": "독립", "hanja": "獨立", "meaning": "independence", "chars": ["立"] },
-  { "word": "하계", "hanja": "夏季", "meaning": "summer season", "chars": ["夏"] },
-  { "word": "동계", "hanja": "冬季", "meaning": "winter season", "chars": ["冬"] },
-  { "word": "춘추", "hanja": "春秋", "meaning": "spring and autumn", "chars": ["春", "秋"] },
-  { "word": "광명", "hanja": "光明", "meaning": "brightness", "chars": ["光", "明"] },
-  { "word": "음악", "hanja": "音樂", "meaning": "music", "chars": ["音", "樂"] },
-  { "word": "음성", "hanja": "音聲", "meaning": "voice", "chars": ["音"] },
-  { "word": "의미", "hanja": "意味", "meaning": "meaning", "chars": ["意"] },
-  { "word": "의식", "hanja": "意識", "meaning": "consciousness", "chars": ["意", "識"] },
-  { "word": "다수", "hanja": "多數", "meaning": "majority", "chars": ["多"] },
-  { "word": "소수", "hanja": "少數", "meaning": "minority", "chars": ["少"] },
-  { "word": "고교", "hanja": "高校", "meaning": "high school", "chars": ["高", "校"] },
-  { "word": "최고", "hanja": "最高", "meaning": "highest, best", "chars": ["高"] },
-  { "word": "연습", "hanja": "練習", "meaning": "practice", "chars": ["習"] },
-  { "word": "습관", "hanja": "習慣", "meaning": "habit", "chars": ["習"] },
-  { "word": "독서", "hanja": "讀書", "meaning": "reading", "chars": ["讀", "書"] },
-  { "word": "도서관", "hanja": "圖書館", "meaning": "library", "chars": ["圖", "書", "館"] },
-  { "word": "신문", "hanja": "新聞", "meaning": "newspaper", "chars": ["新"] },
-  { "word": "신입생", "hanja": "新入生", "meaning": "new student", "chars": ["新", "入", "生"] },
-  { "word": "고대", "hanja": "古代", "meaning": "ancient times", "chars": ["古"] },
-  { "word": "고금", "hanja": "古今", "meaning": "past and present", "chars": ["古", "今"] },
-  { "word": "오늘", "hanja": "今日", "meaning": "today", "chars": ["今", "日"] },
-  { "word": "설명", "hanja": "說明", "meaning": "explanation", "chars": ["明"] },
-  { "word": "애정", "hanja": "愛情", "meaning": "affection", "chars": ["愛", "情"] },
-  { "word": "친구", "hanja": "親舊", "meaning": "friend", "chars": ["親"] },
-  { "word": "우정", "hanja": "友情", "meaning": "friendship", "chars": ["友", "情"] },
-  { "word": "세계", "hanja": "世界", "meaning": "world", "chars": ["世", "界"] },
-  { "word": "세대", "hanja": "世代", "meaning": "generation", "chars": ["世"] },
-  { "word": "공원", "hanja": "公園", "meaning": "park", "chars": ["公"] },
-  { "word": "공동", "hanja": "共同", "meaning": "joint, common", "chars": ["共", "同"] },
-  { "word": "운동", "hanja": "運動", "meaning": "exercise", "chars": ["運", "動"] },
-  { "word": "운전", "hanja": "運轉", "meaning": "driving", "chars": ["運"] },
-  { "word": "행동", "hanja": "行動", "meaning": "behavior", "chars": ["行", "動"] },
-  { "word": "여행", "hanja": "旅行", "meaning": "travel", "chars": ["行"] },
-  { "word": "장소", "hanja": "場所", "meaning": "place", "chars": ["場", "所"] },
-  { "word": "시장", "hanja": "市場", "meaning": "market", "chars": ["市", "場"] },
-  { "word": "도시", "hanja": "都市", "meaning": "city", "chars": ["市"] },
-  { "word": "사회", "hanja": "社會", "meaning": "society", "chars": ["社", "會"] },
-  { "word": "회사", "hanja": "會社", "meaning": "company", "chars": ["會", "社"] },
-  { "word": "회의", "hanja": "會議", "meaning": "meeting", "chars": ["會"] },
-  { "word": "사업", "hanja": "事業", "meaning": "business", "chars": ["事", "業"] },
-  { "word": "공업", "hanja": "工業", "meaning": "industry", "chars": ["工", "業"] },
-  { "word": "공장", "hanja": "工場", "meaning": "factory", "chars": ["工", "場"] },
-  { "word": "노력", "hanja": "努力", "meaning": "effort", "chars": ["努", "力"] },
-  { "word": "능력", "hanja": "能力", "meaning": "ability", "chars": ["能", "力"] },
-  { "word": "상품", "hanja": "商品", "meaning": "merchandise", "chars": ["商", "品"] },
-  { "word": "가격", "hanja": "價格", "meaning": "price", "chars": ["價"] },
-  { "word": "고객", "hanja": "顧客", "meaning": "customer", "chars": ["客"] },
-  { "word": "상점", "hanja": "商店", "meaning": "store", "chars": ["商", "店"] },
-  { "word": "서점", "hanja": "書店", "meaning": "bookstore", "chars": ["書", "店"] },
-  { "word": "신용", "hanja": "信用", "meaning": "credit, trust", "chars": ["信"] },
-  { "word": "신념", "hanja": "信念", "meaning": "belief", "chars": ["信", "念"] },
-  { "word": "사고", "hanja": "思考", "meaning": "thinking", "chars": ["思", "考"] },
-  { "word": "지식", "hanja": "知識", "meaning": "knowledge", "chars": ["知", "識"] },
-  { "word": "천재", "hanja": "天才", "meaning": "genius", "chars": ["天", "才"] },
-  { "word": "승리", "hanja": "勝利", "meaning": "victory", "chars": ["勝"] },
-  { "word": "실패", "hanja": "失敗", "meaning": "failure", "chars": ["敗"] },
-  { "word": "정직", "hanja": "正直", "meaning": "honesty", "chars": ["正", "直"] },
-  { "word": "정확", "hanja": "正確", "meaning": "accuracy", "chars": ["正"] },
-  { "word": "필요", "hanja": "必要", "meaning": "necessity", "chars": ["必", "要"] },
-  { "word": "중요", "hanja": "重要", "meaning": "important", "chars": ["重", "要"] },
-  { "word": "경량", "hanja": "輕量", "meaning": "lightweight", "chars": ["輕"] },
-  { "word": "근처", "hanja": "近處", "meaning": "vicinity", "chars": ["近"] },
-  { "word": "원거리", "hanja": "遠距離", "meaning": "long distance", "chars": ["遠"] },
-  { "word": "강력", "hanja": "強力", "meaning": "strong power", "chars": ["強", "力"] },
-  { "word": "약자", "hanja": "弱者", "meaning": "the weak", "chars": ["弱"] },
-  { "word": "도덕", "hanja": "道德", "meaning": "morality", "chars": ["德"] },
-  { "word": "행복", "hanja": "幸福", "meaning": "happiness", "chars": ["福"] },
-  { "word": "감정", "hanja": "感情", "meaning": "emotion", "chars": ["感", "情"] },
-  { "word": "감동", "hanja": "感動", "meaning": "being moved", "chars": ["感", "動"] },
-  { "word": "경제", "hanja": "經濟", "meaning": "economy", "chars": ["經", "濟"] },
-  { "word": "경험", "hanja": "經驗", "meaning": "experience", "chars": ["經"] },
-  { "word": "정치", "hanja": "政治", "meaning": "politics", "chars": ["政", "治"] },
-  { "word": "법률", "hanja": "法律", "meaning": "law", "chars": ["法"] },
-  { "word": "규칙", "hanja": "規則", "meaning": "rule", "chars": ["規"] },
-  { "word": "제도", "hanja": "制度", "meaning": "system", "chars": ["制", "度"] },
-  { "word": "역사", "hanja": "歷史", "meaning": "history", "chars": ["史"] },
-  { "word": "기록", "hanja": "記錄", "meaning": "record", "chars": ["記"] },
-  { "word": "일기", "hanja": "日記", "meaning": "diary", "chars": ["日", "記"] },
-  { "word": "연극", "hanja": "演劇", "meaning": "theater play", "chars": ["演", "劇"] },
-  { "word": "영화", "hanja": "映畫", "meaning": "movie", "chars": ["映", "畫"] },
-  { "word": "미술", "hanja": "美術", "meaning": "fine arts", "chars": ["美", "術"] },
-  { "word": "예술", "hanja": "藝術", "meaning": "art", "chars": ["術"] },
-  { "word": "과학", "hanja": "科學", "meaning": "science", "chars": ["科", "學"] },
-  { "word": "과목", "hanja": "科目", "meaning": "subject", "chars": ["科"] },
-  { "word": "병원", "hanja": "病院", "meaning": "hospital", "chars": ["病", "院"] },
-  { "word": "약국", "hanja": "藥局", "meaning": "pharmacy", "chars": ["藥"] },
-  { "word": "성실", "hanja": "誠實", "meaning": "sincerity", "chars": ["誠", "實"] },
-  { "word": "실제", "hanja": "實際", "meaning": "reality", "chars": ["實"] },
-  { "word": "연구", "hanja": "硏究", "meaning": "research", "chars": ["研", "究"] },
-  { "word": "단체", "hanja": "團體", "meaning": "group", "chars": ["團"] },
-  { "word": "군대", "hanja": "軍隊", "meaning": "army", "chars": ["軍", "隊"] },
-  { "word": "계속", "hanja": "繼續", "meaning": "continuation", "chars": ["繼", "續"] },
-  { "word": "거부", "hanja": "拒否", "meaning": "refusal", "chars": ["拒", "否"] },
-  { "word": "긍정", "hanja": "肯定", "meaning": "affirmation", "chars": ["肯", "正"] },
-  { "word": "개근", "hanja": "皆勤", "meaning": "perfect attendance", "chars": ["皆"] },
-  { "word": "기회", "hanja": "機會", "meaning": "opportunity", "chars": ["幾", "會"] },
-  { "word": "희귀", "hanja": "稀貴", "meaning": "rare and precious", "chars": ["稀"] },
-  { "word": "집착", "hanja": "執着", "meaning": "attachment", "chars": ["執"] },
-  { "word": "악수", "hanja": "握手", "meaning": "handshake", "chars": ["握", "手"] },
-  { "word": "감상", "hanja": "鑑賞", "meaning": "appreciation", "chars": ["鑑"] },
-  { "word": "분별", "hanja": "分別", "meaning": "discernment", "chars": ["辨"] },
-  { "word": "해석", "hanja": "解釋", "meaning": "interpretation", "chars": ["釋"] },
-  { "word": "압력", "hanja": "壓力", "meaning": "pressure", "chars": ["壓", "力"] },
-  { "word": "억제", "hanja": "抑制", "meaning": "suppression", "chars": ["抑", "制"] },
-  { "word": "인내", "hanja": "忍耐", "meaning": "endurance", "chars": ["忍", "耐"] },
-  { "word": "유혹", "hanja": "誘惑", "meaning": "temptation", "chars": ["誘", "惑"] },
-  { "word": "위로", "hanja": "慰勞", "meaning": "consolation", "chars": ["慰", "勞"] },
-  { "word": "의뢰", "hanja": "依賴", "meaning": "request, dependence", "chars": ["賴"] }
-]
+{
+  "words": [
+    {
+      "id": "W-1",
+      "word": "가능",
+      "hanja": "可能",
+      "hanja_array": [
+        "可",
+        "能"
+      ],
+      "meaning": "할 수 있음",
+      "levels": [
+        "3급",
+        "5급",
+        "준4급"
+      ],
+      "english": "ability to do something"
+    },
+    {
+      "id": "W-2",
+      "word": "각오",
+      "hanja": "覺悟",
+      "hanja_array": [
+        "覺",
+        "悟"
+      ],
+      "meaning": "마음의 준비를 함",
+      "levels": [
+        "3급"
+      ],
+      "english": "mental preparation"
+    },
+    {
+      "id": "W-3",
+      "word": "감동",
+      "hanja": "感動",
+      "hanja_array": [
+        "感",
+        "動"
+      ],
+      "meaning": "마음을 움직임",
+      "levels": [
+        "3급",
+        "4급",
+        "5급"
+      ],
+      "english": "moving one's heart"
+    },
+    {
+      "id": "W-4",
+      "word": "강의",
+      "hanja": "講義",
+      "hanja_array": [
+        "講",
+        "義"
+      ],
+      "meaning": "학문을 설명함",
+      "levels": [
+        "3급",
+        "4급"
+      ],
+      "english": "explaining learning or doctrine"
+    },
+    {
+      "id": "W-5",
+      "word": "개선",
+      "hanja": "改善",
+      "hanja_array": [
+        "改",
+        "善"
+      ],
+      "meaning": "좋게 고침",
+      "levels": [
+        "3급",
+        "준4급"
+      ],
+      "english": "improving something favorably"
+    },
+    {
+      "id": "W-6",
+      "word": "격려",
+      "hanja": "激勵",
+      "hanja_array": [
+        "激",
+        "勵"
+      ],
+      "meaning": "힘을 북돋움",
+      "levels": [
+        "3급"
+      ],
+      "english": "encouraging and boosting strength"
+    },
+    {
+      "id": "W-7",
+      "word": "결심",
+      "hanja": "決心",
+      "hanja_array": [
+        "決",
+        "心"
+      ],
+      "meaning": "마음을 정함",
+      "levels": [
+        "3급",
+        "4급"
+      ],
+      "english": "determining one's resolve"
+    },
+    {
+      "id": "W-8",
+      "word": "경계",
+      "hanja": "警戒",
+      "hanja_array": [
+        "警",
+        "戒"
+      ],
+      "meaning": "조심하여 살핌",
+      "levels": [
+        "3급"
+      ],
+      "english": "careful and cautious observation"
+    },
+    {
+      "id": "W-9",
+      "word": "고민",
+      "hanja": "苦悶",
+      "hanja_array": [
+        "苦",
+        "悶"
+      ],
+      "meaning": "걱정하며 괴로워함",
+      "levels": [
+        "3급",
+        "4급",
+        "6급"
+      ],
+      "english": "worrying and suffering"
+    },
+    {
+      "id": "W-10",
+      "word": "공헌",
+      "hanja": "貢獻",
+      "hanja_array": [
+        "貢",
+        "獻"
+      ],
+      "meaning": "힘을 바침",
+      "levels": [
+        "3급"
+      ],
+      "english": "exerting effort and strength"
+    },
+    {
+      "id": "W-11",
+      "word": "관찰",
+      "hanja": "觀察",
+      "hanja_array": [
+        "觀",
+        "察"
+      ],
+      "meaning": "자세히 살핌",
+      "levels": [
+        "3급",
+        "6급",
+        "준4급",
+        "준5급"
+      ],
+      "english": "detailed careful observation"
+    },
+    {
+      "id": "W-12",
+      "word": "구성",
+      "hanja": "構成",
+      "hanja_array": [
+        "構",
+        "成"
+      ],
+      "meaning": "짜여 이루어짐",
+      "levels": [
+        "3급",
+        "5급",
+        "준3급",
+        "준4급"
+      ],
+      "english": "being organized and accomplished"
+    },
+    {
+      "id": "W-13",
+      "word": "근거",
+      "hanja": "根據",
+      "hanja_array": [
+        "根",
+        "據"
+      ],
+      "meaning": "이유가 되는 바탕",
+      "levels": [
+        "3급"
+      ],
+      "english": "fundamental basis or reason"
+    },
+    {
+      "id": "W-14",
+      "word": "기억",
+      "hanja": "記憶",
+      "hanja_array": [
+        "記",
+        "憶"
+      ],
+      "meaning": "잊지 않고 생각함",
+      "levels": [
+        "3급"
+      ],
+      "english": "remembering without forgetting"
+    },
+    {
+      "id": "W-15",
+      "word": "노력",
+      "hanja": "努力",
+      "hanja_array": [
+        "努",
+        "力"
+      ],
+      "meaning": "힘써 애씀",
+      "levels": [
+        "3급",
+        "5급",
+        "준3급",
+        "준4급"
+      ],
+      "english": "striving and making effort"
+    },
+    {
+      "id": "W-16",
+      "word": "단결",
+      "hanja": "團結",
+      "hanja_array": [
+        "團",
+        "結"
+      ],
+      "meaning": "마음을 하나로 모음",
+      "levels": [
+        "3급"
+      ],
+      "english": "unifying one's mind and focus"
+    },
+    {
+      "id": "W-17",
+      "word": "도전",
+      "hanja": "挑戰",
+      "hanja_array": [
+        "挑",
+        "戰"
+      ],
+      "meaning": "어려움에 맞섬",
+      "levels": [
+        "3급",
+        "5급",
+        "준3급",
+        "준4급"
+      ],
+      "english": "confronting difficulties"
+    },
+    {
+      "id": "W-18",
+      "word": "독립",
+      "hanja": "獨立",
+      "hanja_array": [
+        "獨",
+        "立"
+      ],
+      "meaning": "남에게 의지하지 않음",
+      "levels": [
+        "3급",
+        "4급",
+        "준3급"
+      ],
+      "english": "not relying on others"
+    },
+    {
+      "id": "W-19",
+      "word": "발견",
+      "hanja": "發見",
+      "hanja_array": [
+        "發",
+        "見"
+      ],
+      "meaning": "새롭게 찾아냄",
+      "levels": [
+        "3급",
+        "5급",
+        "준4급"
+      ],
+      "english": "discovering something new"
+    },
+    {
+      "id": "W-20",
+      "word": "발전",
+      "hanja": "發展",
+      "hanja_array": [
+        "發",
+        "展"
+      ],
+      "meaning": "더 나아짐",
+      "levels": [
+        "3급",
+        "5급",
+        "준3급",
+        "준4급"
+      ],
+      "english": "further improvement and progress"
+    },
+    {
+      "id": "W-21",
+      "word": "변화",
+      "hanja": "變化",
+      "hanja_array": [
+        "變",
+        "化"
+      ],
+      "meaning": "달라짐",
+      "levels": [
+        "3급",
+        "4급",
+        "5급",
+        "준3급",
+        "준4급"
+      ],
+      "english": "difference / change"
+    },
+    {
+      "id": "W-22",
+      "word": "보존",
+      "hanja": "保存",
+      "hanja_array": [
+        "保",
+        "存"
+      ],
+      "meaning": "잘 지켜 간직함",
+      "levels": [
+        "3급"
+      ],
+      "english": "careful preservation"
+    },
+    {
+      "id": "W-23",
+      "word": "분석",
+      "hanja": "分析",
+      "hanja_array": [
+        "分",
+        "析"
+      ],
+      "meaning": "나누어 살핌",
+      "levels": [
+        "3급",
+        "4급",
+        "5급",
+        "준3급"
+      ],
+      "english": "shared consideration"
+    },
+    {
+      "id": "W-24",
+      "word": "사회",
+      "hanja": "社會",
+      "hanja_array": [
+        "社",
+        "會"
+      ],
+      "meaning": "사람들이 모여 사는 세상",
+      "levels": [
+        "3급",
+        "4급",
+        "5급",
+        "준3급",
+        "준4급"
+      ],
+      "english": "human society / community"
+    },
+    {
+      "id": "W-25",
+      "word": "설명",
+      "hanja": "說明",
+      "hanja_array": [
+        "說",
+        "明"
+      ],
+      "meaning": "자세히 말함",
+      "levels": [
+        "3급",
+        "4급",
+        "5급",
+        "준3급",
+        "준4급"
+      ],
+      "english": "detailed explanation"
+    },
+    {
+      "id": "W-26",
+      "word": "성공",
+      "hanja": "成功",
+      "hanja_array": [
+        "成",
+        "功"
+      ],
+      "meaning": "목적을 이룸",
+      "levels": [
+        "3급",
+        "4급",
+        "5급",
+        "준3급",
+        "준4급"
+      ],
+      "english": "achievement of purpose"
+    },
+    {
+      "id": "W-27",
+      "word": "소망",
+      "hanja": "所望",
+      "hanja_array": [
+        "所",
+        "望"
+      ],
+      "meaning": "바라는 마음",
+      "levels": [
+        "3급",
+        "준3급"
+      ],
+      "english": "hopeful desire"
+    },
+    {
+      "id": "W-28",
+      "word": "신뢰",
+      "hanja": "信賴",
+      "hanja_array": [
+        "信",
+        "賴"
+      ],
+      "meaning": "굳게 믿음",
+      "levels": [
+        "3급",
+        "5급",
+        "준4급"
+      ],
+      "english": "firm belief"
+    },
+    {
+      "id": "W-29",
+      "word": "안전",
+      "hanja": "安全",
+      "hanja_array": [
+        "安",
+        "全"
+      ],
+      "meaning": "위험이 없음",
+      "levels": [
+        "3급",
+        "4급",
+        "5급",
+        "6급",
+        "7급",
+        "준3급",
+        "준4급"
+      ],
+      "english": "absence of danger / safety"
+    },
+    {
+      "id": "W-30",
+      "word": "연구",
+      "hanja": "硏究",
+      "hanja_array": [
+        "硏",
+        "究"
+      ],
+      "meaning": "깊이 살펴봄",
+      "levels": [
+        "3급",
+        "5급",
+        "준3급",
+        "준4급"
+      ],
+      "english": "deep examination"
+    },
+    {
+      "id": "W-31",
+      "word": "영향",
+      "hanja": "影響",
+      "hanja_array": [
+        "影",
+        "響"
+      ],
+      "meaning": "작용을 미침",
+      "levels": [
+        "3급",
+        "4급",
+        "5급",
+        "준3급",
+        "준4급"
+      ],
+      "english": "exertion of influence"
+    },
+    {
+      "id": "W-32",
+      "word": "예술",
+      "hanja": "藝術",
+      "hanja_array": [
+        "藝",
+        "術"
+      ],
+      "meaning": "아름다움을 표현함",
+      "levels": [
+        "3급",
+        "4급",
+        "준3급"
+      ],
+      "english": "expression of beauty"
+    },
+    {
+      "id": "W-33",
+      "word": "운명",
+      "hanja": "運命",
+      "hanja_array": [
+        "運",
+        "命"
+      ],
+      "meaning": "정해진 길",
+      "levels": [
+        "3급",
+        "준3급"
+      ],
+      "english": "predetermined path"
+    },
+    {
+      "id": "W-34",
+      "word": "위험",
+      "hanja": "危險",
+      "hanja_array": [
+        "危",
+        "險"
+      ],
+      "meaning": "위태로움",
+      "levels": [
+        "3급",
+        "4급",
+        "5급",
+        "준3급",
+        "준4급"
+      ],
+      "english": "danger / peril"
+    },
+    {
+      "id": "W-35",
+      "word": "의견",
+      "hanja": "意見",
+      "hanja_array": [
+        "意",
+        "見"
+      ],
+      "meaning": "생각이나 판단",
+      "levels": [
+        "3급",
+        "4급",
+        "5급",
+        "8급",
+        "준3급",
+        "준4급"
+      ],
+      "english": "thought or judgment"
+    },
+    {
+      "id": "W-36",
+      "word": "이익",
+      "hanja": "利益",
+      "hanja_array": [
+        "利",
+        "益"
+      ],
+      "meaning": "이로움",
+      "levels": [
+        "3급",
+        "4급",
+        "준3급"
+      ],
+      "english": "benefit / profit"
+    },
+    {
+      "id": "W-37",
+      "word": "인내",
+      "hanja": "忍耐",
+      "hanja_array": [
+        "忍",
+        "耐"
+      ],
+      "meaning": "참고 견딤",
+      "levels": [
+        "3급",
+        "준3급"
+      ],
+      "english": "patience and endurance"
+    },
+    {
+      "id": "W-38",
+      "word": "자유",
+      "hanja": "自由",
+      "hanja_array": [
+        "自",
+        "由"
+      ],
+      "meaning": "구속이 없음",
+      "levels": [
+        "3급",
+        "준3급"
+      ],
+      "english": "freedom from constraint"
+    },
+    {
+      "id": "W-39",
+      "word": "정신",
+      "hanja": "精神",
+      "hanja_array": [
+        "精",
+        "神"
+      ],
+      "meaning": "마음의 상태",
+      "levels": [
+        "3급",
+        "준3급"
+      ],
+      "english": "state of mind"
+    },
+    {
+      "id": "W-40",
+      "word": "존경",
+      "hanja": "尊敬",
+      "hanja_array": [
+        "尊",
+        "敬"
+      ],
+      "meaning": "높이 받듦",
+      "levels": [
+        "3급",
+        "준3급"
+      ],
+      "english": "high esteem / respect"
+    },
+    {
+      "id": "W-41",
+      "word": "지혜",
+      "hanja": "智慧",
+      "hanja_array": [
+        "智",
+        "慧"
+      ],
+      "meaning": "슬기로운 생각",
+      "levels": [
+        "3급",
+        "준3급"
+      ],
+      "english": "wise thinking"
+    },
+    {
+      "id": "W-42",
+      "word": "책임",
+      "hanja": "責任",
+      "hanja_array": [
+        "責",
+        "任"
+      ],
+      "meaning": "맡은 의무",
+      "levels": [
+        "3급",
+        "4급",
+        "5급",
+        "준3급",
+        "준4급"
+      ],
+      "english": "assigned responsibility"
+    },
+    {
+      "id": "W-43",
+      "word": "평화",
+      "hanja": "平和",
+      "hanja_array": [
+        "平",
+        "和"
+      ],
+      "meaning": "다툼이 없음",
+      "levels": [
+        "3급",
+        "준3급"
+      ],
+      "english": "absence of conflict"
+    },
+    {
+      "id": "W-44",
+      "word": "행복",
+      "hanja": "幸福",
+      "hanja_array": [
+        "幸",
+        "福"
+      ],
+      "meaning": "기쁘고 만족스러움",
+      "levels": [
+        "3급",
+        "준3급",
+        "준5급"
+      ],
+      "english": "joy and satisfaction"
+    },
+    {
+      "id": "W-45",
+      "word": "협력",
+      "hanja": "協力",
+      "hanja_array": [
+        "協",
+        "力"
+      ],
+      "meaning": "힘을 합함",
+      "levels": [
+        "3급",
+        "5급",
+        "준3급"
+      ],
+      "english": "combining efforts"
+    },
+    {
+      "id": "W-46",
+      "word": "확신",
+      "hanja": "確信",
+      "hanja_array": [
+        "確",
+        "信"
+      ],
+      "meaning": "굳게 믿음",
+      "levels": [
+        "3급",
+        "준3급"
+      ],
+      "english": "firm belief"
+    },
+    {
+      "id": "W-47",
+      "word": "환경",
+      "hanja": "環境",
+      "hanja_array": [
+        "環",
+        "境"
+      ],
+      "meaning": "주변 조건",
+      "levels": [
+        "3급",
+        "7급",
+        "준3급"
+      ],
+      "english": "surrounding conditions"
+    },
+    {
+      "id": "W-48",
+      "word": "활동",
+      "hanja": "活動",
+      "hanja_array": [
+        "活",
+        "動"
+      ],
+      "meaning": "움직여 일함",
+      "levels": [
+        "3급",
+        "4급",
+        "5급",
+        "7급",
+        "준3급",
+        "준4급"
+      ],
+      "english": "active work and labor"
+    },
+    {
+      "id": "W-49",
+      "word": "희망",
+      "hanja": "希望",
+      "hanja_array": [
+        "希",
+        "望"
+      ],
+      "meaning": "바라는 일",
+      "levels": [
+        "3급",
+        "준3급"
+      ],
+      "english": "desired goal or wish"
+    },
+    {
+      "id": "W-50",
+      "word": "훈련",
+      "hanja": "訓練",
+      "hanja_array": [
+        "訓",
+        "練"
+      ],
+      "meaning": "반복하여 익힘",
+      "levels": [
+        "3급",
+        "준3급"
+      ],
+      "english": "repeated practice and learning"
+    },
+    {
+      "id": "W-51",
+      "word": "경쟁",
+      "hanja": "競爭",
+      "hanja_array": [
+        "競",
+        "爭"
+      ],
+      "meaning": "서로 이기려고 다툼",
+      "levels": [
+        "3급",
+        "4급"
+      ],
+      "english": "competing to win"
+    },
+    {
+      "id": "W-52",
+      "word": "경제",
+      "hanja": "經濟",
+      "hanja_array": [
+        "經",
+        "濟"
+      ],
+      "meaning": "재화의 생산과 소비 활동",
+      "levels": [
+        "3급",
+        "준5급"
+      ],
+      "english": "production and consumption of goods"
+    },
+    {
+      "id": "W-53",
+      "word": "국가",
+      "hanja": "國家",
+      "hanja_array": [
+        "國",
+        "家"
+      ],
+      "meaning": "한 나라",
+      "levels": [
+        "3급",
+        "준4급"
+      ],
+      "english": "a nation or country"
+    },
+    {
+      "id": "W-54",
+      "word": "노동",
+      "hanja": "勞動",
+      "hanja_array": [
+        "勞",
+        "動"
+      ],
+      "meaning": "일을 함",
+      "levels": [
+        "3급",
+        "4급"
+      ],
+      "english": "work and labor"
+    },
+    {
+      "id": "W-55",
+      "word": "문화",
+      "hanja": "文化",
+      "hanja_array": [
+        "文",
+        "化"
+      ],
+      "meaning": "생활 양식과 전통",
+      "levels": [
+        "3급"
+      ],
+      "english": "lifestyle and tradition"
+    },
+    {
+      "id": "W-56",
+      "word": "역사",
+      "hanja": "歷史",
+      "hanja_array": [
+        "歷",
+        "史"
+      ],
+      "meaning": "지난 일의 기록",
+      "levels": [
+        "3급",
+        "준5급"
+      ],
+      "english": "record of past events"
+    },
+    {
+      "id": "W-57",
+      "word": "자연",
+      "hanja": "自然",
+      "hanja_array": [
+        "自",
+        "然"
+      ],
+      "meaning": "사람의 힘이 더해지지 않은 상태",
+      "levels": [
+        "3급",
+        "4급",
+        "5급",
+        "7급",
+        "준4급"
+      ],
+      "english": "state without human intervention"
+    },
+    {
+      "id": "W-58",
+      "word": "정보",
+      "hanja": "情報",
+      "hanja_array": [
+        "情",
+        "報"
+      ],
+      "meaning": "알려진 사실",
+      "levels": [
+        "3급"
+      ],
+      "english": "known fact"
+    },
+    {
+      "id": "W-59",
+      "word": "창조",
+      "hanja": "創造",
+      "hanja_array": [
+        "創",
+        "造"
+      ],
+      "meaning": "새로 만들어 냄",
+      "levels": [
+        "3급"
+      ],
+      "english": "creating something new"
+    },
+    {
+      "id": "W-60",
+      "word": "통합",
+      "hanja": "統合",
+      "hanja_array": [
+        "統",
+        "合"
+      ],
+      "meaning": "하나로 합침",
+      "levels": [
+        "3급"
+      ],
+      "english": "uniting into one"
+    },
+    {
+      "id": "W-61",
+      "word": "가정",
+      "hanja": "家庭",
+      "hanja_array": [
+        "家",
+        "庭"
+      ],
+      "meaning": "가족이 함께 사는 집",
+      "levels": [
+        "4급",
+        "준3급"
+      ],
+      "english": "house where family lives together"
+    },
+    {
+      "id": "W-62",
+      "word": "개발",
+      "hanja": "開發",
+      "hanja_array": [
+        "開",
+        "發"
+      ],
+      "meaning": "새롭게 만듦",
+      "levels": [
+        "4급",
+        "5급"
+      ],
+      "english": "create or make something new"
+    },
+    {
+      "id": "W-63",
+      "word": "건강",
+      "hanja": "健康",
+      "hanja_array": [
+        "健",
+        "康"
+      ],
+      "meaning": "몸이 튼튼함",
+      "levels": [
+        "4급"
+      ],
+      "english": "physical strength and good health"
+    },
+    {
+      "id": "W-64",
+      "word": "공연",
+      "hanja": "公演",
+      "hanja_array": [
+        "公",
+        "演"
+      ],
+      "meaning": "여러 사람 앞에서 보임",
+      "levels": [
+        "4급"
+      ],
+      "english": "appear or perform in front of many"
+    },
+    {
+      "id": "W-65",
+      "word": "과거",
+      "hanja": "過去",
+      "hanja_array": [
+        "過",
+        "去"
+      ],
+      "meaning": "지나간 때",
+      "levels": [
+        "4급"
+      ],
+      "english": "past time or bygone era"
+    },
+    {
+      "id": "W-66",
+      "word": "관광",
+      "hanja": "觀光",
+      "hanja_array": [
+        "觀",
+        "光"
+      ],
+      "meaning": "구경함",
+      "levels": [
+        "4급"
+      ],
+      "english": "watching or viewing something"
+    },
+    {
+      "id": "W-67",
+      "word": "교육",
+      "hanja": "敎育",
+      "hanja_array": [
+        "敎",
+        "育"
+      ],
+      "meaning": "가르치고 기름",
+      "levels": [
+        "4급",
+        "5급"
+      ],
+      "english": "teach and nurture"
+    },
+    {
+      "id": "W-68",
+      "word": "구조",
+      "hanja": "構造",
+      "hanja_array": [
+        "構",
+        "造"
+      ],
+      "meaning": "짜여 있는 모양",
+      "levels": [
+        "4급"
+      ],
+      "english": "woven or organized pattern"
+    },
+    {
+      "id": "W-69",
+      "word": "군대",
+      "hanja": "軍隊",
+      "hanja_array": [
+        "軍",
+        "隊"
+      ],
+      "meaning": "군인의 집단",
+      "levels": [
+        "4급"
+      ],
+      "english": "military unit or troops"
+    },
+    {
+      "id": "W-70",
+      "word": "근본",
+      "hanja": "根本",
+      "hanja_array": [
+        "根",
+        "本"
+      ],
+      "meaning": "기본이 되는 것",
+      "levels": [
+        "4급",
+        "5급"
+      ],
+      "english": "fundamental basis or foundation"
+    },
+    {
+      "id": "W-71",
+      "word": "기록",
+      "hanja": "記錄",
+      "hanja_array": [
+        "記",
+        "錄"
+      ],
+      "meaning": "적어 둠",
+      "levels": [
+        "4급",
+        "5급"
+      ],
+      "english": "write down or record"
+    },
+    {
+      "id": "W-72",
+      "word": "기회",
+      "hanja": "機會",
+      "hanja_array": [
+        "機",
+        "會"
+      ],
+      "meaning": "어떤 일을 할 수 있는 때",
+      "levels": [
+        "4급",
+        "5급",
+        "준3급"
+      ],
+      "english": "right time or opportunity to do"
+    },
+    {
+      "id": "W-73",
+      "word": "노인",
+      "hanja": "老人",
+      "hanja_array": [
+        "老",
+        "人"
+      ],
+      "meaning": "나이가 많은 사람",
+      "levels": [
+        "4급"
+      ],
+      "english": "elderly person or senior"
+    },
+    {
+      "id": "W-74",
+      "word": "능률",
+      "hanja": "能率",
+      "hanja_array": [
+        "能",
+        "率"
+      ],
+      "meaning": "일의 효율",
+      "levels": [
+        "4급"
+      ],
+      "english": "work efficiency or productivity"
+    },
+    {
+      "id": "W-75",
+      "word": "단체",
+      "hanja": "團體",
+      "hanja_array": [
+        "團",
+        "體"
+      ],
+      "meaning": "여럿이 모인 집단",
+      "levels": [
+        "4급",
+        "5급",
+        "준3급"
+      ],
+      "english": "group or gathering of many people"
+    },
+    {
+      "id": "W-76",
+      "word": "대상",
+      "hanja": "對象",
+      "hanja_array": [
+        "對",
+        "象"
+      ],
+      "meaning": "목표가 되는 것",
+      "levels": [
+        "4급"
+      ],
+      "english": "goal or target"
+    },
+    {
+      "id": "W-77",
+      "word": "대표",
+      "hanja": "代表",
+      "hanja_array": [
+        "代",
+        "表"
+      ],
+      "meaning": "대신 나타냄",
+      "levels": [
+        "4급"
+      ],
+      "english": "represent or substitute for"
+    },
+    {
+      "id": "W-78",
+      "word": "도덕",
+      "hanja": "道德",
+      "hanja_array": [
+        "道",
+        "德"
+      ],
+      "meaning": "사람으로서 지켜야 할 바른 행동",
+      "levels": [
+        "4급"
+      ],
+      "english": "proper human conduct and morality"
+    },
+    {
+      "id": "W-79",
+      "word": "동료",
+      "hanja": "同僚",
+      "hanja_array": [
+        "同",
+        "僚"
+      ],
+      "meaning": "함께 일하는 사람",
+      "levels": [
+        "4급"
+      ],
+      "english": "colleague or coworker"
+    },
+    {
+      "id": "W-80",
+      "word": "발표",
+      "hanja": "發表",
+      "hanja_array": [
+        "發",
+        "表"
+      ],
+      "meaning": "여러 사람 앞에서 밝힘",
+      "levels": [
+        "4급"
+      ],
+      "english": "reveal or explain in front of many"
+    },
+    {
+      "id": "W-81",
+      "word": "방문",
+      "hanja": "訪問",
+      "hanja_array": [
+        "訪",
+        "問"
+      ],
+      "meaning": "찾아감",
+      "levels": [
+        "4급",
+        "5급",
+        "준3급"
+      ],
+      "english": "to go and find"
+    },
+    {
+      "id": "W-82",
+      "word": "법률",
+      "hanja": "法律",
+      "hanja_array": [
+        "法",
+        "律"
+      ],
+      "meaning": "국가가 정한 규칙",
+      "levels": [
+        "4급"
+      ],
+      "english": "rules established by the state"
+    },
+    {
+      "id": "W-83",
+      "word": "보통",
+      "hanja": "普通",
+      "hanja_array": [
+        "普",
+        "通"
+      ],
+      "meaning": "특별하지 않음",
+      "levels": [
+        "4급"
+      ],
+      "english": "not special or ordinary"
+    },
+    {
+      "id": "W-84",
+      "word": "부족",
+      "hanja": "不足",
+      "hanja_array": [
+        "不",
+        "足"
+      ],
+      "meaning": "모자람",
+      "levels": [
+        "4급"
+      ],
+      "english": "lack or insufficiency"
+    },
+    {
+      "id": "W-85",
+      "word": "사고",
+      "hanja": "事故",
+      "hanja_array": [
+        "事",
+        "故"
+      ],
+      "meaning": "뜻밖의 나쁜 일",
+      "levels": [
+        "4급",
+        "5급"
+      ],
+      "english": "unexpected misfortune"
+    },
+    {
+      "id": "W-86",
+      "word": "상황",
+      "hanja": "狀況",
+      "hanja_array": [
+        "狀",
+        "況"
+      ],
+      "meaning": "형편",
+      "levels": [
+        "4급",
+        "5급",
+        "준4급"
+      ],
+      "english": "circumstances or situation"
+    },
+    {
+      "id": "W-87",
+      "word": "생활",
+      "hanja": "生活",
+      "hanja_array": [
+        "生",
+        "活"
+      ],
+      "meaning": "살아가는 일상",
+      "levels": [
+        "4급",
+        "8급"
+      ],
+      "english": "daily life and living"
+    },
+    {
+      "id": "W-88",
+      "word": "선택",
+      "hanja": "選擇",
+      "hanja_array": [
+        "選",
+        "擇"
+      ],
+      "meaning": "가려서 정함",
+      "levels": [
+        "4급",
+        "준3급",
+        "준5급"
+      ],
+      "english": "to select and decide"
+    },
+    {
+      "id": "W-89",
+      "word": "소식",
+      "hanja": "消息",
+      "hanja_array": [
+        "消",
+        "息"
+      ],
+      "meaning": "알림",
+      "levels": [
+        "4급",
+        "5급",
+        "준4급"
+      ],
+      "english": "notification or announcement"
+    },
+    {
+      "id": "W-90",
+      "word": "수단",
+      "hanja": "手段",
+      "hanja_array": [
+        "手",
+        "段"
+      ],
+      "meaning": "어떤 일을 이루기 위한 방법",
+      "levels": [
+        "4급",
+        "5급",
+        "준3급"
+      ],
+      "english": "method to accomplish something"
+    },
+    {
+      "id": "W-91",
+      "word": "시간",
+      "hanja": "時間",
+      "hanja_array": [
+        "時",
+        "間"
+      ],
+      "meaning": "때와 시각",
+      "levels": [
+        "4급",
+        "6급",
+        "7급"
+      ],
+      "english": "time and moment"
+    },
+    {
+      "id": "W-92",
+      "word": "신용",
+      "hanja": "信用",
+      "hanja_array": [
+        "信",
+        "用"
+      ],
+      "meaning": "믿음",
+      "levels": [
+        "4급"
+      ],
+      "english": "trust or faith"
+    },
+    {
+      "id": "W-93",
+      "word": "약속",
+      "hanja": "約束",
+      "hanja_array": [
+        "約",
+        "束"
+      ],
+      "meaning": "서로 정한 일",
+      "levels": [
+        "4급",
+        "5급",
+        "준4급",
+        "준5급"
+      ],
+      "english": "mutually agreed upon matter"
+    },
+    {
+      "id": "W-94",
+      "word": "연습",
+      "hanja": "練習",
+      "hanja_array": [
+        "練",
+        "習"
+      ],
+      "meaning": "익히기 위해 반복함",
+      "levels": [
+        "4급"
+      ],
+      "english": "repeated practice for skill"
+    },
+    {
+      "id": "W-95",
+      "word": "운동",
+      "hanja": "運動",
+      "hanja_array": [
+        "運",
+        "動"
+      ],
+      "meaning": "몸을 움직임",
+      "levels": [
+        "4급",
+        "5급",
+        "준4급"
+      ],
+      "english": "physical movement or exercise"
+    },
+    {
+      "id": "W-96",
+      "word": "이해",
+      "hanja": "理解",
+      "hanja_array": [
+        "理",
+        "解"
+      ],
+      "meaning": "뜻을 앎",
+      "levels": [
+        "4급",
+        "5급",
+        "6급",
+        "준4급"
+      ],
+      "english": "to understand the meaning"
+    },
+    {
+      "id": "W-97",
+      "word": "인간",
+      "hanja": "人間",
+      "hanja_array": [
+        "人",
+        "間"
+      ],
+      "meaning": "사람",
+      "levels": [
+        "4급",
+        "5급",
+        "준4급"
+      ],
+      "english": "person or human being"
+    },
+    {
+      "id": "W-98",
+      "word": "전통",
+      "hanja": "傳統",
+      "hanja_array": [
+        "傳",
+        "統"
+      ],
+      "meaning": "오래 전해 내려옴",
+      "levels": [
+        "4급",
+        "5급",
+        "준4급"
+      ],
+      "english": "long-standing tradition"
+    },
+    {
+      "id": "W-99",
+      "word": "정리",
+      "hanja": "整理",
+      "hanja_array": [
+        "整",
+        "理"
+      ],
+      "meaning": "바로잡음",
+      "levels": [
+        "4급",
+        "5급",
+        "7급",
+        "준4급"
+      ],
+      "english": "correction or rectification"
+    },
+    {
+      "id": "W-100",
+      "word": "강조",
+      "hanja": "強調",
+      "hanja_array": [
+        "強",
+        "調"
+      ],
+      "meaning": "중요하게 말함",
+      "levels": [
+        "5급",
+        "준3급"
+      ],
+      "english": "to emphasize or stress"
+    },
+    {
+      "id": "W-101",
+      "word": "경제력",
+      "hanja": "經濟力",
+      "hanja_array": [
+        "經",
+        "濟",
+        "力"
+      ],
+      "meaning": "경제적인 힘",
+      "levels": [
+        "5급"
+      ],
+      "english": "economic power"
+    },
+    {
+      "id": "W-102",
+      "word": "결과",
+      "hanja": "結果",
+      "hanja_array": [
+        "結",
+        "果"
+      ],
+      "meaning": "마지막으로 나타난 상태",
+      "levels": [
+        "5급",
+        "6급",
+        "준3급",
+        "준4급"
+      ],
+      "english": "final state or condition"
+    },
+    {
+      "id": "W-103",
+      "word": "경험",
+      "hanja": "經驗",
+      "hanja_array": [
+        "經",
+        "驗"
+      ],
+      "meaning": "직접 겪음",
+      "levels": [
+        "5급",
+        "준3급",
+        "준4급"
+      ],
+      "english": "direct experience"
+    },
+    {
+      "id": "W-104",
+      "word": "계획",
+      "hanja": "計劃",
+      "hanja_array": [
+        "計",
+        "劃"
+      ],
+      "meaning": "앞으로 할 일을 정함",
+      "levels": [
+        "5급",
+        "7급"
+      ],
+      "english": "planning future tasks"
+    },
+    {
+      "id": "W-105",
+      "word": "공공시설",
+      "hanja": "公共施設",
+      "hanja_array": [
+        "公",
+        "共",
+        "施",
+        "設"
+      ],
+      "meaning": "여러 사람이 함께 쓰는 시설",
+      "levels": [
+        "5급"
+      ],
+      "english": "shared public facilities"
+    },
+    {
+      "id": "W-106",
+      "word": "관계",
+      "hanja": "關係",
+      "hanja_array": [
+        "關",
+        "係"
+      ],
+      "meaning": "서로 관련됨",
+      "levels": [
+        "5급",
+        "준3급",
+        "준4급"
+      ],
+      "english": "mutual connection"
+    },
+    {
+      "id": "W-107",
+      "word": "관심",
+      "hanja": "關心",
+      "hanja_array": [
+        "關",
+        "心"
+      ],
+      "meaning": "마음이 끌림",
+      "levels": [
+        "5급"
+      ],
+      "english": "attraction or interest"
+    },
+    {
+      "id": "W-108",
+      "word": "교통",
+      "hanja": "交通",
+      "hanja_array": [
+        "交",
+        "通"
+      ],
+      "meaning": "오고 감",
+      "levels": [
+        "5급"
+      ],
+      "english": "coming and going"
+    },
+    {
+      "id": "W-109",
+      "word": "국제",
+      "hanja": "國際",
+      "hanja_array": [
+        "國",
+        "際"
+      ],
+      "meaning": "나라와 나라 사이",
+      "levels": [
+        "5급"
+      ],
+      "english": "between nations"
+    },
+    {
+      "id": "W-110",
+      "word": "당연",
+      "hanja": "當然",
+      "hanja_array": [
+        "當",
+        "然"
+      ],
+      "meaning": "마땅히 그러함",
+      "levels": [
+        "5급"
+      ],
+      "english": "as it should be"
+    },
+    {
+      "id": "W-111",
+      "word": "대답",
+      "hanja": "對答",
+      "hanja_array": [
+        "對",
+        "答"
+      ],
+      "meaning": "묻는 말에 답함",
+      "levels": [
+        "5급"
+      ],
+      "english": "answering a question"
+    },
+    {
+      "id": "W-112",
+      "word": "독서",
+      "hanja": "讀書",
+      "hanja_array": [
+        "讀",
+        "書"
+      ],
+      "meaning": "책을 읽음",
+      "levels": [
+        "5급",
+        "준4급"
+      ],
+      "english": "reading books"
+    },
+    {
+      "id": "W-113",
+      "word": "동작",
+      "hanja": "動作",
+      "hanja_array": [
+        "動",
+        "作"
+      ],
+      "meaning": "움직임",
+      "levels": [
+        "5급",
+        "준4급"
+      ],
+      "english": "movement or motion"
+    },
+    {
+      "id": "W-114",
+      "word": "등장",
+      "hanja": "登場",
+      "hanja_array": [
+        "登",
+        "場"
+      ],
+      "meaning": "나타남",
+      "levels": [
+        "5급"
+      ],
+      "english": "appearance or manifestation"
+    },
+    {
+      "id": "W-115",
+      "word": "마음가짐",
+      "hanja": "心構",
+      "hanja_array": [
+        "心",
+        "構"
+      ],
+      "meaning": "마음을 가지는 태도",
+      "levels": [
+        "5급"
+      ],
+      "english": "mindset or attitude"
+    },
+    {
+      "id": "W-116",
+      "word": "문제점",
+      "hanja": "問題點",
+      "hanja_array": [
+        "問",
+        "題",
+        "點"
+      ],
+      "meaning": "문제가 되는 부분",
+      "levels": [
+        "5급"
+      ],
+      "english": "problematic aspect"
+    },
+    {
+      "id": "W-117",
+      "word": "방법",
+      "hanja": "方法",
+      "hanja_array": [
+        "方",
+        "法"
+      ],
+      "meaning": "일을 하는 수단",
+      "levels": [
+        "5급",
+        "6급",
+        "7급",
+        "준4급"
+      ],
+      "english": "means or method of work"
+    },
+    {
+      "id": "W-118",
+      "word": "보호",
+      "hanja": "保護",
+      "hanja_array": [
+        "保",
+        "護"
+      ],
+      "meaning": "지킴",
+      "levels": [
+        "5급",
+        "준3급",
+        "준4급"
+      ],
+      "english": "protection or preservation"
+    },
+    {
+      "id": "W-119",
+      "word": "부분",
+      "hanja": "部分",
+      "hanja_array": [
+        "部",
+        "分"
+      ],
+      "meaning": "전체의 한쪽",
+      "levels": [
+        "5급",
+        "준4급"
+      ],
+      "english": "one side of whole"
+    },
+    {
+      "id": "W-120",
+      "word": "비교",
+      "hanja": "比較",
+      "hanja_array": [
+        "比",
+        "較"
+      ],
+      "meaning": "서로 견줌",
+      "levels": [
+        "5급",
+        "준4급"
+      ],
+      "english": "comparison or contrast"
+    },
+    {
+      "id": "W-121",
+      "word": "속도",
+      "hanja": "速度",
+      "hanja_array": [
+        "速",
+        "度"
+      ],
+      "meaning": "빠르기",
+      "levels": [
+        "5급",
+        "준4급"
+      ],
+      "english": "speed"
+    },
+    {
+      "id": "W-122",
+      "word": "습관",
+      "hanja": "習慣",
+      "hanja_array": [
+        "習",
+        "慣"
+      ],
+      "meaning": "익숙해진 버릇",
+      "levels": [
+        "5급",
+        "준4급"
+      ],
+      "english": "habit formed through familiarity"
+    },
+    {
+      "id": "W-123",
+      "word": "승리",
+      "hanja": "勝利",
+      "hanja_array": [
+        "勝",
+        "利"
+      ],
+      "meaning": "이김",
+      "levels": [
+        "5급"
+      ],
+      "english": "avoidance"
+    },
+    {
+      "id": "W-124",
+      "word": "시작",
+      "hanja": "始作",
+      "hanja_array": [
+        "始",
+        "作"
+      ],
+      "meaning": "처음으로 함",
+      "levels": [
+        "5급",
+        "준4급"
+      ],
+      "english": "doing something for the first time"
+    },
+    {
+      "id": "W-125",
+      "word": "실패",
+      "hanja": "失敗",
+      "hanja_array": [
+        "失",
+        "敗"
+      ],
+      "meaning": "목적을 이루지 못함",
+      "levels": [
+        "5급"
+      ],
+      "english": "failure to achieve a goal"
+    },
+    {
+      "id": "W-126",
+      "word": "예절",
+      "hanja": "禮節",
+      "hanja_array": [
+        "禮",
+        "節"
+      ],
+      "meaning": "지켜야 할 바른 행동",
+      "levels": [
+        "5급",
+        "준4급",
+        "준5급"
+      ],
+      "english": "proper conduct to be observed"
+    },
+    {
+      "id": "W-127",
+      "word": "작용",
+      "hanja": "作用",
+      "hanja_array": [
+        "作",
+        "用"
+      ],
+      "meaning": "어떤 영향을 미침",
+      "levels": [
+        "5급"
+      ],
+      "english": "exerting influence"
+    },
+    {
+      "id": "W-128",
+      "word": "장점",
+      "hanja": "長點",
+      "hanja_array": [
+        "長",
+        "點"
+      ],
+      "meaning": "좋은 점",
+      "levels": [
+        "5급"
+      ],
+      "english": "advantage / merit"
+    },
+    {
+      "id": "W-129",
+      "word": "조건",
+      "hanja": "條件",
+      "hanja_array": [
+        "條",
+        "件"
+      ],
+      "meaning": "어떤 일이 이루어지기 위한 요소",
+      "levels": [
+        "5급",
+        "준4급"
+      ],
+      "english": "element necessary for accomplishment"
+    },
+    {
+      "id": "W-130",
+      "word": "주장",
+      "hanja": "主張",
+      "hanja_array": [
+        "主",
+        "張"
+      ],
+      "meaning": "자기의 의견을 강하게 말함",
+      "levels": [
+        "5급",
+        "준4급"
+      ],
+      "english": "expressing one's opinion strongly"
+    },
+    {
+      "id": "W-131",
+      "word": "중요",
+      "hanja": "重要",
+      "hanja_array": [
+        "重",
+        "要"
+      ],
+      "meaning": "아주 필요함",
+      "levels": [
+        "5급",
+        "7급",
+        "준4급"
+      ],
+      "english": "absolutely necessary"
+    },
+    {
+      "id": "W-132",
+      "word": "지식",
+      "hanja": "知識",
+      "hanja_array": [
+        "知",
+        "識"
+      ],
+      "meaning": "아는 내용",
+      "levels": [
+        "5급",
+        "준4급"
+      ],
+      "english": "known information / knowledge"
+    },
+    {
+      "id": "W-133",
+      "word": "직업",
+      "hanja": "職業",
+      "hanja_array": [
+        "職",
+        "業"
+      ],
+      "meaning": "생활을 위한 일",
+      "levels": [
+        "5급",
+        "준4급"
+      ],
+      "english": "work for livelihood"
+    },
+    {
+      "id": "W-134",
+      "word": "체험",
+      "hanja": "體驗",
+      "hanja_array": [
+        "體",
+        "驗"
+      ],
+      "meaning": "몸소 겪음",
+      "levels": [
+        "5급",
+        "7급",
+        "준4급"
+      ],
+      "english": "experiencing personally"
+    },
+    {
+      "id": "W-135",
+      "word": "초대",
+      "hanja": "招待",
+      "hanja_array": [
+        "招",
+        "待"
+      ],
+      "meaning": "불러 맞이함",
+      "levels": [
+        "5급"
+      ],
+      "english": "calling and welcoming"
+    },
+    {
+      "id": "W-136",
+      "word": "통일",
+      "hanja": "統一",
+      "hanja_array": [
+        "統",
+        "一"
+      ],
+      "meaning": "하나로 합침",
+      "levels": [
+        "5급"
+      ],
+      "english": "uniting into one"
+    },
+    {
+      "id": "W-137",
+      "word": "표현",
+      "hanja": "表現",
+      "hanja_array": [
+        "表",
+        "現"
+      ],
+      "meaning": "생각을 나타냄",
+      "levels": [
+        "5급",
+        "6급",
+        "준4급"
+      ],
+      "english": "expressing one's thoughts"
+    },
+    {
+      "id": "W-138",
+      "word": "필요",
+      "hanja": "必要",
+      "hanja_array": [
+        "必",
+        "要"
+      ],
+      "meaning": "반드시 요구됨",
+      "levels": [
+        "5급",
+        "준4급"
+      ],
+      "english": "strictly required"
+    },
+    {
+      "id": "W-139",
+      "word": "행동",
+      "hanja": "行動",
+      "hanja_array": [
+        "行",
+        "動"
+      ],
+      "meaning": "몸을 움직여 함",
+      "levels": [
+        "5급"
+      ],
+      "english": "physical action / movement"
+    },
+    {
+      "id": "W-140",
+      "word": "현상",
+      "hanja": "現象",
+      "hanja_array": [
+        "現",
+        "象"
+      ],
+      "meaning": "겉으로 나타나는 모습",
+      "levels": [
+        "5급"
+      ],
+      "english": "outward appearance"
+    },
+    {
+      "id": "W-141",
+      "word": "가열",
+      "hanja": "加熱",
+      "hanja_array": [
+        "加",
+        "熱"
+      ],
+      "meaning": "열을 더함",
+      "levels": [
+        "6급"
+      ],
+      "english": "adding heat"
+    },
+    {
+      "id": "W-142",
+      "word": "각",
+      "hanja": "角",
+      "hanja_array": [
+        "角"
+      ],
+      "meaning": "모서리나 각도",
+      "levels": [
+        "6급",
+        "준5급"
+      ],
+      "english": "edge or angle"
+    },
+    {
+      "id": "W-143",
+      "word": "거리",
+      "hanja": "距離",
+      "hanja_array": [
+        "距",
+        "離"
+      ],
+      "meaning": "두 곳 사이의 간격",
+      "levels": [
+        "6급"
+      ],
+      "english": "space between two places"
+    },
+    {
+      "id": "W-144",
+      "word": "검소",
+      "hanja": "儉素",
+      "hanja_array": [
+        "儉",
+        "素"
+      ],
+      "meaning": "사치하지 않고 절약함",
+      "levels": [
+        "6급"
+      ],
+      "english": "frugality without extravagance"
+    },
+    {
+      "id": "W-145",
+      "word": "계산",
+      "hanja": "計算",
+      "hanja_array": [
+        "計",
+        "算"
+      ],
+      "meaning": "수를 헤아림",
+      "levels": [
+        "6급",
+        "7급"
+      ],
+      "english": "counting numbers"
+    },
+    {
+      "id": "W-146",
+      "word": "공손",
+      "hanja": "恭遜",
+      "hanja_array": [
+        "恭",
+        "遜"
+      ],
+      "meaning": "예의 바르고 겸손함",
+      "levels": [
+        "6급"
+      ],
+      "english": "politeness and humility"
+    },
+    {
+      "id": "W-147",
+      "word": "공통",
+      "hanja": "共通",
+      "hanja_array": [
+        "共",
+        "通"
+      ],
+      "meaning": "여럿이 함께 가짐",
+      "levels": [
+        "6급"
+      ],
+      "english": "sharing among multiple people"
+    },
+    {
+      "id": "W-148",
+      "word": "구간",
+      "hanja": "區間",
+      "hanja_array": [
+        "區",
+        "間"
+      ],
+      "meaning": "일정한 범위",
+      "levels": [
+        "6급"
+      ],
+      "english": "fixed range or scope"
+    },
+    {
+      "id": "W-149",
+      "word": "기구",
+      "hanja": "器具",
+      "hanja_array": [
+        "器",
+        "具"
+      ],
+      "meaning": "일에 쓰는 도구",
+      "levels": [
+        "6급"
+      ],
+      "english": "tool for work"
+    },
+    {
+      "id": "W-150",
+      "word": "낭송",
+      "hanja": "朗誦",
+      "hanja_array": [
+        "朗",
+        "誦"
+      ],
+      "meaning": "소리 내어 읽음",
+      "levels": [
+        "6급"
+      ],
+      "english": "reading aloud"
+    },
+    {
+      "id": "W-151",
+      "word": "대화",
+      "hanja": "對話",
+      "hanja_array": [
+        "對",
+        "話"
+      ],
+      "meaning": "서로 이야기를 나눔",
+      "levels": [
+        "6급",
+        "준4급"
+      ],
+      "english": "exchanging conversation"
+    },
+    {
+      "id": "W-152",
+      "word": "도형",
+      "hanja": "圖形",
+      "hanja_array": [
+        "圖",
+        "形"
+      ],
+      "meaning": "점과 선으로 이루어진 모양",
+      "levels": [
+        "6급"
+      ],
+      "english": "shape made of points and lines"
+    },
+    {
+      "id": "W-153",
+      "word": "무관심",
+      "hanja": "無關心",
+      "hanja_array": [
+        "無",
+        "關",
+        "心"
+      ],
+      "meaning": "관심이 없음",
+      "levels": [
+        "6급"
+      ],
+      "english": "lack of interest"
+    },
+    {
+      "id": "W-154",
+      "word": "문제",
+      "hanja": "問題",
+      "hanja_array": [
+        "問",
+        "題"
+      ],
+      "meaning": "해결해야 할 일",
+      "levels": [
+        "6급"
+      ],
+      "english": "task that needs solving"
+    },
+    {
+      "id": "W-155",
+      "word": "물체",
+      "hanja": "物體",
+      "hanja_array": [
+        "物",
+        "體"
+      ],
+      "meaning": "형태를 가진 물건",
+      "levels": [
+        "6급"
+      ],
+      "english": "object with physical form"
+    },
+    {
+      "id": "W-156",
+      "word": "반",
+      "hanja": "半",
+      "hanja_array": [
+        "半"
+      ],
+      "meaning": "절반",
+      "levels": [
+        "6급"
+      ],
+      "english": "half"
+    },
+    {
+      "id": "W-157",
+      "word": "반성",
+      "hanja": "反省",
+      "hanja_array": [
+        "反",
+        "省"
+      ],
+      "meaning": "자신을 돌아봄",
+      "levels": [
+        "6급",
+        "준5급"
+      ],
+      "english": "self-reflection"
+    },
+    {
+      "id": "W-158",
+      "word": "발명",
+      "hanja": "發明",
+      "hanja_array": [
+        "發",
+        "明"
+      ],
+      "meaning": "새로운 것을 만들어 냄",
+      "levels": [
+        "6급"
+      ],
+      "english": "creating something new"
+    },
+    {
+      "id": "W-159",
+      "word": "배열",
+      "hanja": "配列",
+      "hanja_array": [
+        "配",
+        "列"
+      ],
+      "meaning": "차례대로 늘어놓음",
+      "levels": [
+        "6급",
+        "7급"
+      ],
+      "english": "arranging in sequence"
+    },
+    {
+      "id": "W-160",
+      "word": "변",
+      "hanja": "邊",
+      "hanja_array": [
+        "邊"
+      ],
+      "meaning": "가장자리",
+      "levels": [
+        "6급",
+        "7급"
+      ],
+      "english": "edge or border"
+    },
+    {
+      "id": "W-161",
+      "word": "분류",
+      "hanja": "分類",
+      "hanja_array": [
+        "分",
+        "類"
+      ],
+      "meaning": "여럿을 나누어 구별함",
+      "levels": [
+        "6급"
+      ],
+      "english": "dividing and distinguishing multiple things"
+    },
+    {
+      "id": "W-162",
+      "word": "분리",
+      "hanja": "分離",
+      "hanja_array": [
+        "分",
+        "離"
+      ],
+      "meaning": "나누어 떼어 냄",
+      "levels": [
+        "6급"
+      ],
+      "english": "separating and removing a part"
+    },
+    {
+      "id": "W-163",
+      "word": "분수",
+      "hanja": "分數",
+      "hanja_array": [
+        "分",
+        "數"
+      ],
+      "meaning": "전체를 나눈 수",
+      "levels": [
+        "6급"
+      ],
+      "english": "a number divided from a whole"
+    },
+    {
+      "id": "W-164",
+      "word": "상품",
+      "hanja": "賞品",
+      "hanja_array": [
+        "賞",
+        "品"
+      ],
+      "meaning": "상으로 주는 물건",
+      "levels": [
+        "6급"
+      ],
+      "english": "something given as a prize"
+    },
+    {
+      "id": "W-165",
+      "word": "수직",
+      "hanja": "垂直",
+      "hanja_array": [
+        "垂",
+        "直"
+      ],
+      "meaning": "똑바로 내려오는 방향",
+      "levels": [
+        "6급"
+      ],
+      "english": "direction coming straight down"
+    },
+    {
+      "id": "W-166",
+      "word": "순서",
+      "hanja": "順序",
+      "hanja_array": [
+        "順",
+        "序"
+      ],
+      "meaning": "차례",
+      "levels": [
+        "6급"
+      ],
+      "english": "order or sequence"
+    },
+    {
+      "id": "W-167",
+      "word": "식",
+      "hanja": "式",
+      "hanja_array": [
+        "式"
+      ],
+      "meaning": "일정한 형식",
+      "levels": [
+        "6급",
+        "7급"
+      ],
+      "english": "a fixed form or format"
+    },
+    {
+      "id": "W-168",
+      "word": "실천",
+      "hanja": "實踐",
+      "hanja_array": [
+        "實",
+        "踐"
+      ],
+      "meaning": "행동으로 옮김",
+      "levels": [
+        "6급",
+        "준5급"
+      ],
+      "english": "putting action into practice"
+    },
+    {
+      "id": "W-169",
+      "word": "실험",
+      "hanja": "實驗",
+      "hanja_array": [
+        "實",
+        "驗"
+      ],
+      "meaning": "직접 시험해 봄",
+      "levels": [
+        "6급"
+      ],
+      "english": "testing directly through experience"
+    },
+    {
+      "id": "W-170",
+      "word": "암송",
+      "hanja": "暗誦",
+      "hanja_array": [
+        "暗",
+        "誦"
+      ],
+      "meaning": "외워서 읽음",
+      "levels": [
+        "6급"
+      ],
+      "english": "reading from memory"
+    },
+    {
+      "id": "W-171",
+      "word": "역할",
+      "hanja": "役割",
+      "hanja_array": [
+        "役",
+        "割"
+      ],
+      "meaning": "맡은 일",
+      "levels": [
+        "6급",
+        "7급"
+      ],
+      "english": "an assigned task or duty"
+    },
+    {
+      "id": "W-172",
+      "word": "온도",
+      "hanja": "溫度",
+      "hanja_array": [
+        "溫",
+        "度"
+      ],
+      "meaning": "따뜻하고 차가운 정도",
+      "levels": [
+        "6급"
+      ],
+      "english": "degree of warmth and coldness"
+    },
+    {
+      "id": "W-173",
+      "word": "우애",
+      "hanja": "友愛",
+      "hanja_array": [
+        "友",
+        "愛"
+      ],
+      "meaning": "서로 아끼는 마음",
+      "levels": [
+        "6급"
+      ],
+      "english": "mutual care and affection"
+    },
+    {
+      "id": "W-174",
+      "word": "이용",
+      "hanja": "利用",
+      "hanja_array": [
+        "利",
+        "用"
+      ],
+      "meaning": "쓰임",
+      "levels": [
+        "6급"
+      ],
+      "english": "usage or application"
+    },
+    {
+      "id": "W-175",
+      "word": "이유",
+      "hanja": "理由",
+      "hanja_array": [
+        "理",
+        "由"
+      ],
+      "meaning": "까닭",
+      "levels": [
+        "6급"
+      ],
+      "english": "reason or cause"
+    },
+    {
+      "id": "W-176",
+      "word": "일주",
+      "hanja": "一周",
+      "hanja_array": [
+        "一",
+        "周"
+      ],
+      "meaning": "한 바퀴 돎",
+      "levels": [
+        "6급"
+      ],
+      "english": "going around one full circle"
+    },
+    {
+      "id": "W-177",
+      "word": "점",
+      "hanja": "點",
+      "hanja_array": [
+        "點"
+      ],
+      "meaning": "찍은 표시",
+      "levels": [
+        "6급"
+      ],
+      "english": "a printed or marked sign"
+    },
+    {
+      "id": "W-178",
+      "word": "종류",
+      "hanja": "種類",
+      "hanja_array": [
+        "種",
+        "類"
+      ],
+      "meaning": "같은 부류",
+      "levels": [
+        "6급"
+      ],
+      "english": "the same category or type"
+    },
+    {
+      "id": "W-179",
+      "word": "주변",
+      "hanja": "周邊",
+      "hanja_array": [
+        "周",
+        "邊"
+      ],
+      "meaning": "둘레",
+      "levels": [
+        "6급"
+      ],
+      "english": "perimeter or circumference"
+    },
+    {
+      "id": "W-180",
+      "word": "차",
+      "hanja": "差",
+      "hanja_array": [
+        "差"
+      ],
+      "meaning": "서로 다른 정도",
+      "levels": [
+        "6급"
+      ],
+      "english": "degree of difference"
+    },
+    {
+      "id": "W-181",
+      "word": "차이",
+      "hanja": "差異",
+      "hanja_array": [
+        "差",
+        "異"
+      ],
+      "meaning": "서로 다름",
+      "levels": [
+        "6급"
+      ],
+      "english": "difference / being different"
+    },
+    {
+      "id": "W-182",
+      "word": "착륙",
+      "hanja": "着陸",
+      "hanja_array": [
+        "着",
+        "陸"
+      ],
+      "meaning": "땅에 내림",
+      "levels": [
+        "6급"
+      ],
+      "english": "landing on ground"
+    },
+    {
+      "id": "W-183",
+      "word": "최선",
+      "hanja": "最善",
+      "hanja_array": [
+        "最",
+        "善"
+      ],
+      "meaning": "가장 좋음",
+      "levels": [
+        "6급"
+      ],
+      "english": "best / finest"
+    },
+    {
+      "id": "W-184",
+      "word": "특징",
+      "hanja": "特徵",
+      "hanja_array": [
+        "特",
+        "徵"
+      ],
+      "meaning": "뚜렷한 점",
+      "levels": [
+        "6급"
+      ],
+      "english": "distinctive feature / characteristic"
+    },
+    {
+      "id": "W-185",
+      "word": "평가",
+      "hanja": "評價",
+      "hanja_array": [
+        "評",
+        "價"
+      ],
+      "meaning": "가치를 매김",
+      "levels": [
+        "6급"
+      ],
+      "english": "assigning value / evaluation"
+    },
+    {
+      "id": "W-186",
+      "word": "평소",
+      "hanja": "平素",
+      "hanja_array": [
+        "平",
+        "素"
+      ],
+      "meaning": "늘",
+      "levels": [
+        "6급"
+      ],
+      "english": "always / constantly"
+    },
+    {
+      "id": "W-187",
+      "word": "표",
+      "hanja": "表",
+      "hanja_array": [
+        "表"
+      ],
+      "meaning": "겉에 나타냄",
+      "levels": [
+        "6급"
+      ],
+      "english": "displaying on surface / revealing"
+    },
+    {
+      "id": "W-188",
+      "word": "표어",
+      "hanja": "標語",
+      "hanja_array": [
+        "標",
+        "語"
+      ],
+      "meaning": "목표를 나타내는 짧은 말",
+      "levels": [
+        "6급"
+      ],
+      "english": "short phrase indicating goal"
+    },
+    {
+      "id": "W-189",
+      "word": "합",
+      "hanja": "合",
+      "hanja_array": [
+        "合"
+      ],
+      "meaning": "더한 결과",
+      "levels": [
+        "6급"
+      ],
+      "english": "result of addition"
+    },
+    {
+      "id": "W-190",
+      "word": "혼합물",
+      "hanja": "混合物",
+      "hanja_array": [
+        "混",
+        "合",
+        "物"
+      ],
+      "meaning": "섞인 물질",
+      "levels": [
+        "6급"
+      ],
+      "english": "mixed substance / mixture"
+    },
+    {
+      "id": "W-191",
+      "word": "화목",
+      "hanja": "和睦",
+      "hanja_array": [
+        "和",
+        "睦"
+      ],
+      "meaning": "사이좋게 지냄",
+      "levels": [
+        "6급"
+      ],
+      "english": "getting along well / harmony"
+    },
+    {
+      "id": "W-192",
+      "word": "화학",
+      "hanja": "化學",
+      "hanja_array": [
+        "化",
+        "學"
+      ],
+      "meaning": "물질의 성질을 연구하는 학문",
+      "levels": [
+        "6급"
+      ],
+      "english": "chemistry / study of matter"
+    },
+    {
+      "id": "W-193",
+      "word": "활용",
+      "hanja": "活用",
+      "hanja_array": [
+        "活",
+        "用"
+      ],
+      "meaning": "잘 이용함",
+      "levels": [
+        "6급"
+      ],
+      "english": "utilizing well / making good use"
+    },
+    {
+      "id": "W-194",
+      "word": "효도",
+      "hanja": "孝道",
+      "hanja_array": [
+        "孝",
+        "道"
+      ],
+      "meaning": "부모를 잘 모시는 도리",
+      "levels": [
+        "6급"
+      ],
+      "english": "filial duty / honoring parents"
+    },
+    {
+      "id": "W-195",
+      "word": "교실",
+      "hanja": "敎室",
+      "hanja_array": [
+        "敎",
+        "室"
+      ],
+      "meaning": "수업하는 방",
+      "levels": [
+        "7급"
+      ],
+      "english": "classroom / teaching room"
+    },
+    {
+      "id": "W-196",
+      "word": "규칙",
+      "hanja": "規則",
+      "hanja_array": [
+        "規",
+        "則"
+      ],
+      "meaning": "정해진 법칙",
+      "levels": [
+        "7급"
+      ],
+      "english": "fixed rule / law"
+    },
+    {
+      "id": "W-197",
+      "word": "모형",
+      "hanja": "模型",
+      "hanja_array": [
+        "模",
+        "型"
+      ],
+      "meaning": "본을 떠 만든 것",
+      "levels": [
+        "7급"
+      ],
+      "english": "molded copy / replica"
+    },
+    {
+      "id": "W-198",
+      "word": "문법",
+      "hanja": "文法",
+      "hanja_array": [
+        "文",
+        "法"
+      ],
+      "meaning": "언어의 규칙",
+      "levels": [
+        "7급"
+      ],
+      "english": "grammar / language rules"
+    },
+    {
+      "id": "W-199",
+      "word": "민속",
+      "hanja": "民俗",
+      "hanja_array": [
+        "民",
+        "俗"
+      ],
+      "meaning": "민간의 풍속",
+      "levels": [
+        "7급"
+      ],
+      "english": "folk customs / popular traditions"
+    },
+    {
+      "id": "W-200",
+      "word": "발음",
+      "hanja": "發音",
+      "hanja_array": [
+        "發",
+        "音"
+      ],
+      "meaning": "소리를 냄",
+      "levels": [
+        "7급"
+      ],
+      "english": "making sound / producing noise"
+    },
+    {
+      "id": "W-201",
+      "word": "부호",
+      "hanja": "符號",
+      "hanja_array": [
+        "符",
+        "號"
+      ],
+      "meaning": "뜻을 나타내는 기호",
+      "levels": [
+        "7급"
+      ],
+      "english": "symbol representing meaning"
+    },
+    {
+      "id": "W-202",
+      "word": "분명",
+      "hanja": "分明",
+      "hanja_array": [
+        "分",
+        "明"
+      ],
+      "meaning": "뚜렷하고 확실함",
+      "levels": [
+        "7급"
+      ],
+      "english": "clear and certain"
+    },
+    {
+      "id": "W-203",
+      "word": "삼각형",
+      "hanja": "三角形",
+      "hanja_array": [
+        "三",
+        "角",
+        "形"
+      ],
+      "meaning": "세 개의 각을 가진 도형",
+      "levels": [
+        "7급"
+      ],
+      "english": "shape with three angles"
+    },
+    {
+      "id": "W-204",
+      "word": "상상",
+      "hanja": "想像",
+      "hanja_array": [
+        "想",
+        "像"
+      ],
+      "meaning": "마음속으로 그려 봄",
+      "levels": [
+        "7급",
+        "준5급"
+      ],
+      "english": "visualizing in one's mind"
+    },
+    {
+      "id": "W-205",
+      "word": "선",
+      "hanja": "線",
+      "hanja_array": [
+        "線"
+      ],
+      "meaning": "길게 이어진 자취",
+      "levels": [
+        "7급"
+      ],
+      "english": "long connected trace"
+    },
+    {
+      "id": "W-206",
+      "word": "선심",
+      "hanja": "善心",
+      "hanja_array": [
+        "善",
+        "心"
+      ],
+      "meaning": "착한 마음",
+      "levels": [
+        "7급"
+      ],
+      "english": "kind-hearted nature"
+    },
+    {
+      "id": "W-207",
+      "word": "시",
+      "hanja": "詩",
+      "hanja_array": [
+        "詩"
+      ],
+      "meaning": "운율이 있는 글",
+      "levels": [
+        "7급",
+        "준5급"
+      ],
+      "english": "rhythmic writing or poetry"
+    },
+    {
+      "id": "W-208",
+      "word": "시계",
+      "hanja": "時計",
+      "hanja_array": [
+        "時",
+        "計"
+      ],
+      "meaning": "시간을 재는 기구",
+      "levels": [
+        "7급"
+      ],
+      "english": "device measuring time"
+    },
+    {
+      "id": "W-209",
+      "word": "신호",
+      "hanja": "信號",
+      "hanja_array": [
+        "信",
+        "號"
+      ],
+      "meaning": "알리는 표시",
+      "levels": [
+        "7급"
+      ],
+      "english": "notification or indicator"
+    },
+    {
+      "id": "W-210",
+      "word": "실감",
+      "hanja": "實感",
+      "hanja_array": [
+        "實",
+        "感"
+      ],
+      "meaning": "실제로 느끼는 느낌",
+      "levels": [
+        "7급"
+      ],
+      "english": "actually felt sensation"
+    },
+    {
+      "id": "W-211",
+      "word": "오전",
+      "hanja": "午前",
+      "hanja_array": [
+        "午",
+        "前"
+      ],
+      "meaning": "낮 12시 이전",
+      "levels": [
+        "7급"
+      ],
+      "english": "before 12 PM"
+    },
+    {
+      "id": "W-212",
+      "word": "오후",
+      "hanja": "午後",
+      "hanja_array": [
+        "午",
+        "後"
+      ],
+      "meaning": "낮 12시 이후",
+      "levels": [
+        "7급"
+      ],
+      "english": "after 12 PM"
+    },
+    {
+      "id": "W-213",
+      "word": "원",
+      "hanja": "圓",
+      "hanja_array": [
+        "圓"
+      ],
+      "meaning": "둥근 모양",
+      "levels": [
+        "7급"
+      ],
+      "english": "round shape"
+    },
+    {
+      "id": "W-214",
+      "word": "자세",
+      "hanja": "姿勢",
+      "hanja_array": [
+        "姿",
+        "勢"
+      ],
+      "meaning": "몸의 모양",
+      "levels": [
+        "7급"
+      ],
+      "english": "body shape or figure"
+    },
+    {
+      "id": "W-215",
+      "word": "장면",
+      "hanja": "場面",
+      "hanja_array": [
+        "場",
+        "面"
+      ],
+      "meaning": "눈앞에 보이는 모습",
+      "levels": [
+        "7급"
+      ],
+      "english": "appearance visible before eyes"
+    },
+    {
+      "id": "W-216",
+      "word": "정직",
+      "hanja": "正直",
+      "hanja_array": [
+        "正",
+        "直"
+      ],
+      "meaning": "거짓이 없음",
+      "levels": [
+        "7급"
+      ],
+      "english": "absence of falsehood"
+    },
+    {
+      "id": "W-217",
+      "word": "정확",
+      "hanja": "正確",
+      "hanja_array": [
+        "正",
+        "確"
+      ],
+      "meaning": "틀림이 없음",
+      "levels": [
+        "7급"
+      ],
+      "english": "absence of error"
+    },
+    {
+      "id": "W-218",
+      "word": "준비",
+      "hanja": "準備",
+      "hanja_array": [
+        "準",
+        "備"
+      ],
+      "meaning": "미리 갖춤",
+      "levels": [
+        "7급"
+      ],
+      "english": "prepared in advance"
+    },
+    {
+      "id": "W-219",
+      "word": "질문",
+      "hanja": "質問",
+      "hanja_array": [
+        "質",
+        "問"
+      ],
+      "meaning": "묻는 말",
+      "levels": [
+        "7급"
+      ],
+      "english": "question or inquiry"
+    },
+    {
+      "id": "W-220",
+      "word": "체육",
+      "hanja": "體育",
+      "hanja_array": [
+        "體",
+        "育"
+      ],
+      "meaning": "몸을 단련하는 교육",
+      "levels": [
+        "7급"
+      ],
+      "english": "physical education and training"
+    },
+    {
+      "id": "W-221",
+      "word": "학년",
+      "hanja": "學年",
+      "hanja_array": [
+        "學",
+        "年"
+      ],
+      "meaning": "학교의 학습 단계",
+      "levels": [
+        "7급"
+      ],
+      "english": "academic grade level at school"
+    },
+    {
+      "id": "W-222",
+      "word": "학습",
+      "hanja": "學習",
+      "hanja_array": [
+        "學",
+        "習"
+      ],
+      "meaning": "배워 익힘",
+      "levels": [
+        "7급"
+      ],
+      "english": "learning and mastering skills"
+    },
+    {
+      "id": "W-223",
+      "word": "공부",
+      "hanja": "工夫",
+      "hanja_array": [
+        "工",
+        "夫"
+      ],
+      "meaning": "학문을 배움",
+      "levels": [
+        "8급"
+      ],
+      "english": "academic study and learning"
+    },
+    {
+      "id": "W-224",
+      "word": "내용",
+      "hanja": "內容",
+      "hanja_array": [
+        "內",
+        "容"
+      ],
+      "meaning": "안에 담긴 것",
+      "levels": [
+        "8급"
+      ],
+      "english": "contents contained within"
+    },
+    {
+      "id": "W-225",
+      "word": "동물",
+      "hanja": "動物",
+      "hanja_array": [
+        "動",
+        "物"
+      ],
+      "meaning": "움직이는 생물",
+      "levels": [
+        "8급"
+      ],
+      "english": "living moving organism"
+    },
+    {
+      "id": "W-226",
+      "word": "문장",
+      "hanja": "文章",
+      "hanja_array": [
+        "文",
+        "章"
+      ],
+      "meaning": "글의 단위",
+      "levels": [
+        "8급"
+      ],
+      "english": "unit of written text"
+    },
+    {
+      "id": "W-227",
+      "word": "사물",
+      "hanja": "事物",
+      "hanja_array": [
+        "事",
+        "物"
+      ],
+      "meaning": "모든 물건과 일",
+      "levels": [
+        "8급"
+      ],
+      "english": "all things and matters"
+    },
+    {
+      "id": "W-228",
+      "word": "선생님",
+      "hanja": "先生",
+      "hanja_array": [
+        "先",
+        "生"
+      ],
+      "meaning": "가르치는 사람",
+      "levels": [
+        "8급"
+      ],
+      "english": "person who teaches"
+    },
+    {
+      "id": "W-229",
+      "word": "식물",
+      "hanja": "植物",
+      "hanja_array": [
+        "植",
+        "物"
+      ],
+      "meaning": "땅에서 자라는 생물",
+      "levels": [
+        "8급"
+      ],
+      "english": "plant growing from earth"
+    },
+    {
+      "id": "W-230",
+      "word": "인물",
+      "hanja": "人物",
+      "hanja_array": [
+        "人",
+        "物"
+      ],
+      "meaning": "사람 또는 뛰어난 사람",
+      "levels": [
+        "8급"
+      ],
+      "english": "person or outstanding individual"
+    },
+    {
+      "id": "W-231",
+      "word": "주의",
+      "hanja": "注意",
+      "hanja_array": [
+        "注",
+        "意"
+      ],
+      "meaning": "조심함",
+      "levels": [
+        "8급"
+      ],
+      "english": "carefulness and caution"
+    },
+    {
+      "id": "W-232",
+      "word": "친구",
+      "hanja": "親舊",
+      "hanja_array": [
+        "親",
+        "舊"
+      ],
+      "meaning": "가까이 지내는 사람",
+      "levels": [
+        "8급"
+      ],
+      "english": "close acquaintance or friend"
+    },
+    {
+      "id": "W-233",
+      "word": "학교",
+      "hanja": "學校",
+      "hanja_array": [
+        "學",
+        "校"
+      ],
+      "meaning": "배우는 곳",
+      "levels": [
+        "8급"
+      ],
+      "english": "place of learning"
+    },
+    {
+      "id": "W-234",
+      "word": "감사",
+      "hanja": "感謝",
+      "hanja_array": [
+        "感",
+        "謝"
+      ],
+      "meaning": "고마움을 표현함",
+      "levels": [
+        "준3급",
+        "준4급"
+      ],
+      "english": "expression of gratitude"
+    },
+    {
+      "id": "W-235",
+      "word": "고통",
+      "hanja": "苦痛",
+      "hanja_array": [
+        "苦",
+        "痛"
+      ],
+      "meaning": "괴로움",
+      "levels": [
+        "준3급"
+      ],
+      "english": "suffering or pain"
+    },
+    {
+      "id": "W-236",
+      "word": "공경",
+      "hanja": "恭敬",
+      "hanja_array": [
+        "恭",
+        "敬"
+      ],
+      "meaning": "공손히 받듦",
+      "levels": [
+        "준3급"
+      ],
+      "english": "respectful receiving or acceptance"
+    },
+    {
+      "id": "W-237",
+      "word": "군중",
+      "hanja": "群衆",
+      "hanja_array": [
+        "群",
+        "衆"
+      ],
+      "meaning": "많은 사람들",
+      "levels": [
+        "준3급"
+      ],
+      "english": "large number of people"
+    },
+    {
+      "id": "W-238",
+      "word": "근원",
+      "hanja": "根源",
+      "hanja_array": [
+        "根",
+        "源"
+      ],
+      "meaning": "처음 시작된 곳",
+      "levels": [
+        "준3급"
+      ],
+      "english": "place where something originated"
+    },
+    {
+      "id": "W-239",
+      "word": "신념",
+      "hanja": "信念",
+      "hanja_array": [
+        "信",
+        "念"
+      ],
+      "meaning": "굳게 믿는 생각",
+      "levels": [
+        "준3급"
+      ],
+      "english": "firm conviction or belief"
+    },
+    {
+      "id": "W-240",
+      "word": "가격",
+      "hanja": "價格",
+      "hanja_array": [
+        "價",
+        "格"
+      ],
+      "meaning": "물건의 값",
+      "levels": [
+        "준4급"
+      ],
+      "english": "price or value of item"
+    },
+    {
+      "id": "W-241",
+      "word": "공공",
+      "hanja": "公共",
+      "hanja_array": [
+        "公",
+        "共"
+      ],
+      "meaning": "여러 사람이 함께 함",
+      "levels": [
+        "준4급",
+        "준5급"
+      ],
+      "english": "gathering together with many people"
+    },
+    {
+      "id": "W-242",
+      "word": "교환",
+      "hanja": "交換",
+      "hanja_array": [
+        "交",
+        "換"
+      ],
+      "meaning": "서로 바꿈",
+      "levels": [
+        "준4급"
+      ],
+      "english": "exchanging with each other"
+    },
+    {
+      "id": "W-243",
+      "word": "기술",
+      "hanja": "技術",
+      "hanja_array": [
+        "技",
+        "術"
+      ],
+      "meaning": "재주와 방법",
+      "levels": [
+        "준4급"
+      ],
+      "english": "skill and method"
+    },
+    {
+      "id": "W-244",
+      "word": "기초",
+      "hanja": "基礎",
+      "hanja_array": [
+        "基",
+        "礎"
+      ],
+      "meaning": "기본이 되는 바탕",
+      "levels": [
+        "준4급"
+      ],
+      "english": "fundamental basis or foundation"
+    },
+    {
+      "id": "W-245",
+      "word": "능력",
+      "hanja": "能力",
+      "hanja_array": [
+        "能",
+        "力"
+      ],
+      "meaning": "어떤 일을 할 수 있는 힘",
+      "levels": [
+        "준4급"
+      ],
+      "english": "ability to accomplish a task"
+    },
+    {
+      "id": "W-246",
+      "word": "단계",
+      "hanja": "段階",
+      "hanja_array": [
+        "段",
+        "階"
+      ],
+      "meaning": "차례로 구분된 과정",
+      "levels": [
+        "준4급"
+      ],
+      "english": "process divided into sequential steps"
+    },
+    {
+      "id": "W-247",
+      "word": "가족",
+      "hanja": "家族",
+      "hanja_array": [
+        "家",
+        "族"
+      ],
+      "meaning": "같은 집에서 사는 사람들",
+      "levels": [
+        "준5급"
+      ],
+      "english": "family members living together"
+    },
+    {
+      "id": "W-248",
+      "word": "감상",
+      "hanja": "感想",
+      "hanja_array": [
+        "感",
+        "想"
+      ],
+      "meaning": "느낀 생각",
+      "levels": [
+        "준5급"
+      ],
+      "english": "thoughts and feelings"
+    },
+    {
+      "id": "W-249",
+      "word": "고체",
+      "hanja": "固體",
+      "hanja_array": [
+        "固",
+        "體"
+      ],
+      "meaning": "굳은 상태의 물질",
+      "levels": [
+        "준5급"
+      ],
+      "english": "solid state matter"
+    },
+    {
+      "id": "W-250",
+      "word": "관광객",
+      "hanja": "觀光客",
+      "hanja_array": [
+        "觀",
+        "光",
+        "客"
+      ],
+      "meaning": "구경하러 온 사람",
+      "levels": [
+        "준5급"
+      ],
+      "english": "visitor who came to observe"
+    },
+    {
+      "id": "W-251",
+      "word": "구애행동",
+      "hanja": "求愛行動",
+      "hanja_array": [
+        "求",
+        "愛",
+        "行",
+        "動"
+      ],
+      "meaning": "짝을 구하는 행동",
+      "levels": [
+        "준5급"
+      ],
+      "english": "action of seeking a partner"
+    },
+    {
+      "id": "W-252",
+      "word": "국보",
+      "hanja": "國寶",
+      "hanja_array": [
+        "國",
+        "寶"
+      ],
+      "meaning": "나라의 보물",
+      "levels": [
+        "준5급"
+      ],
+      "english": "national treasure"
+    },
+    {
+      "id": "W-253",
+      "word": "기사",
+      "hanja": "記事",
+      "hanja_array": [
+        "記",
+        "事"
+      ],
+      "meaning": "신문이나 잡지의 글",
+      "levels": [
+        "준5급"
+      ],
+      "english": "article in newspaper or magazine"
+    },
+    {
+      "id": "W-254",
+      "word": "농촌",
+      "hanja": "農村",
+      "hanja_array": [
+        "農",
+        "村"
+      ],
+      "meaning": "농사를 짓는 마을",
+      "levels": [
+        "준5급"
+      ],
+      "english": "farming village"
+    },
+    {
+      "id": "W-255",
+      "word": "답사",
+      "hanja": "踏査",
+      "hanja_array": [
+        "踏",
+        "査"
+      ],
+      "meaning": "현장을 직접 가서 조사함",
+      "levels": [
+        "준5급"
+      ],
+      "english": "on-site investigation and survey"
+    },
+    {
+      "id": "W-256",
+      "word": "대분수",
+      "hanja": "帶分數",
+      "hanja_array": [
+        "帶",
+        "分",
+        "數"
+      ],
+      "meaning": "정수와 분수가 함께 있는 수",
+      "levels": [
+        "준5급"
+      ],
+      "english": "mixed number with integer and fraction"
+    },
+    {
+      "id": "W-257",
+      "word": "대조",
+      "hanja": "對照",
+      "hanja_array": [
+        "對",
+        "照"
+      ],
+      "meaning": "서로 비교함",
+      "levels": [
+        "준5급"
+      ],
+      "english": "comparing with each other"
+    },
+    {
+      "id": "W-258",
+      "word": "도시",
+      "hanja": "都市",
+      "hanja_array": [
+        "都",
+        "市"
+      ],
+      "meaning": "사람이 많이 사는 큰 고장",
+      "levels": [
+        "준5급"
+      ],
+      "english": "large city with many people"
+    },
+    {
+      "id": "W-259",
+      "word": "등고선",
+      "hanja": "等高線",
+      "hanja_array": [
+        "等",
+        "高",
+        "線"
+      ],
+      "meaning": "높이가 같은 지점을 이은 선",
+      "levels": [
+        "준5급"
+      ],
+      "english": "line connecting points of equal elevation"
+    },
+    {
+      "id": "W-260",
+      "word": "문단",
+      "hanja": "文段",
+      "hanja_array": [
+        "文",
+        "段"
+      ],
+      "meaning": "글의 한 단락",
+      "levels": [
+        "준5급"
+      ],
+      "english": "paragraph of text"
+    },
+    {
+      "id": "W-261",
+      "word": "문화재",
+      "hanja": "文化財",
+      "hanja_array": [
+        "文",
+        "化",
+        "財"
+      ],
+      "meaning": "문화적 가치가 있는 재산",
+      "levels": [
+        "준5급"
+      ],
+      "english": "culturally valuable property"
+    },
+    {
+      "id": "W-262",
+      "word": "박람회",
+      "hanja": "博覽會",
+      "hanja_array": [
+        "博",
+        "覽",
+        "會"
+      ],
+      "meaning": "여러 물건을 전시하는 행사",
+      "levels": [
+        "준5급"
+      ],
+      "english": "exhibition displaying various objects"
+    },
+    {
+      "id": "W-263",
+      "word": "박물관",
+      "hanja": "博物館",
+      "hanja_array": [
+        "博",
+        "物",
+        "館"
+      ],
+      "meaning": "자료를 모아 전시하는 곳",
+      "levels": [
+        "준5급"
+      ],
+      "english": "place that exhibits collected materials"
+    },
+    {
+      "id": "W-264",
+      "word": "부도체",
+      "hanja": "不導體",
+      "hanja_array": [
+        "不",
+        "導",
+        "體"
+      ],
+      "meaning": "전기가 통하지 않는 물질",
+      "levels": [
+        "준5급"
+      ],
+      "english": "non-conductive material"
+    },
+    {
+      "id": "W-265",
+      "word": "분동",
+      "hanja": "分銅",
+      "hanja_array": [
+        "分",
+        "銅"
+      ],
+      "meaning": "저울에 다는 무게 추",
+      "levels": [
+        "준5급"
+      ],
+      "english": "weight counterbalance on scale"
+    },
+    {
+      "id": "W-266",
+      "word": "소득",
+      "hanja": "所得",
+      "hanja_array": [
+        "所",
+        "得"
+      ],
+      "meaning": "벌어들인 돈",
+      "levels": [
+        "준5급"
+      ],
+      "english": "earned income"
+    },
+    {
+      "id": "W-267",
+      "word": "소재",
+      "hanja": "素材",
+      "hanja_array": [
+        "素",
+        "材"
+      ],
+      "meaning": "재료",
+      "levels": [
+        "준5급"
+      ],
+      "english": "raw material"
+    },
+    {
+      "id": "W-268",
+      "word": "속담",
+      "hanja": "俗談",
+      "hanja_array": [
+        "俗",
+        "談"
+      ],
+      "meaning": "옛날부터 전해 오는 말",
+      "levels": [
+        "준5급"
+      ],
+      "english": "traditional saying passed down"
+    },
+    {
+      "id": "W-269",
+      "word": "액체",
+      "hanja": "液體",
+      "hanja_array": [
+        "液",
+        "體"
+      ],
+      "meaning": "흐르는 상태의 물질",
+      "levels": [
+        "준5급"
+      ],
+      "english": "flowing substance"
+    },
+    {
+      "id": "W-270",
+      "word": "양보",
+      "hanja": "讓步",
+      "hanja_array": [
+        "讓",
+        "步"
+      ],
+      "meaning": "자신의 뜻을 조금 물러남",
+      "levels": [
+        "준5급"
+      ],
+      "english": "compromising one's own opinion"
+    },
+    {
+      "id": "W-271",
+      "word": "연상",
+      "hanja": "聯想",
+      "hanja_array": [
+        "聯",
+        "想"
+      ],
+      "meaning": "관련된 것을 떠올림",
+      "levels": [
+        "준5급"
+      ],
+      "english": "recalling related things"
+    },
+    {
+      "id": "W-272",
+      "word": "연표",
+      "hanja": "年表",
+      "hanja_array": [
+        "年",
+        "表"
+      ],
+      "meaning": "연대순으로 정리한 표",
+      "levels": [
+        "준5급"
+      ],
+      "english": "chronological table"
+    },
+    {
+      "id": "W-273",
+      "word": "예금",
+      "hanja": "預金",
+      "hanja_array": [
+        "預",
+        "金"
+      ],
+      "meaning": "은행에 돈을 맡김",
+      "levels": [
+        "준5급"
+      ],
+      "english": "depositing money in bank"
+    },
+    {
+      "id": "W-274",
+      "word": "유통",
+      "hanja": "流通",
+      "hanja_array": [
+        "流",
+        "通"
+      ],
+      "meaning": "물건이 돌아다님",
+      "levels": [
+        "준5급"
+      ],
+      "english": "items in circulation"
+    },
+    {
+      "id": "W-275",
+      "word": "은행",
+      "hanja": "銀行",
+      "hanja_array": [
+        "銀",
+        "行"
+      ],
+      "meaning": "돈을 맡기고 빌리는 곳",
+      "levels": [
+        "준5급"
+      ],
+      "english": "place to deposit and borrow money"
+    },
+    {
+      "id": "W-276",
+      "word": "음악",
+      "hanja": "音樂",
+      "hanja_array": [
+        "音",
+        "樂"
+      ],
+      "meaning": "소리로 이루어진 예술",
+      "levels": [
+        "준5급"
+      ],
+      "english": "art composed of sound"
+    },
+    {
+      "id": "W-277",
+      "word": "자료",
+      "hanja": "資料",
+      "hanja_array": [
+        "資",
+        "料"
+      ],
+      "meaning": "연구나 참고에 쓰는 것",
+      "levels": [
+        "준5급"
+      ],
+      "english": "material used for research reference"
+    },
+    {
+      "id": "W-278",
+      "word": "전지",
+      "hanja": "電池",
+      "hanja_array": [
+        "電",
+        "池"
+      ],
+      "meaning": "전기를 저장하는 장치",
+      "levels": [
+        "준5급"
+      ],
+      "english": "device that stores electricity"
+    },
+    {
+      "id": "W-279",
+      "word": "주제",
+      "hanja": "主題",
+      "hanja_array": [
+        "主",
+        "題"
+      ],
+      "meaning": "중심이 되는 생각",
+      "levels": [
+        "준5급"
+      ],
+      "english": "central guiding idea"
+    },
+    {
+      "id": "W-280",
+      "word": "지도",
+      "hanja": "地圖",
+      "hanja_array": [
+        "地",
+        "圖"
+      ],
+      "meaning": "땅의 모습을 그린 그림",
+      "levels": [
+        "준5급"
+      ],
+      "english": "map of land features"
+    },
+    {
+      "id": "W-281",
+      "word": "지출",
+      "hanja": "支出",
+      "hanja_array": [
+        "支",
+        "出"
+      ],
+      "meaning": "돈을 씀",
+      "levels": [
+        "준5급"
+      ],
+      "english": "spending money"
+    },
+    {
+      "id": "W-282",
+      "word": "지층",
+      "hanja": "地層",
+      "hanja_array": [
+        "地",
+        "層"
+      ],
+      "meaning": "땅속의 층",
+      "levels": [
+        "준5급"
+      ],
+      "english": "underground layer / stratum"
+    },
+    {
+      "id": "W-283",
+      "word": "질서",
+      "hanja": "秩序",
+      "hanja_array": [
+        "秩",
+        "序"
+      ],
+      "meaning": "바른 차례",
+      "levels": [
+        "준5급"
+      ],
+      "english": "correct order / sequence"
+    },
+    {
+      "id": "W-284",
+      "word": "체조",
+      "hanja": "體操",
+      "hanja_array": [
+        "體",
+        "操"
+      ],
+      "meaning": "몸을 단련하는 운동",
+      "levels": [
+        "준5급"
+      ],
+      "english": "physical exercise / workout"
+    },
+    {
+      "id": "W-285",
+      "word": "축척",
+      "hanja": "縮尺",
+      "hanja_array": [
+        "縮",
+        "尺"
+      ],
+      "meaning": "지도에서 실제 거리를 줄인 비율",
+      "levels": [
+        "준5급"
+      ],
+      "english": "map scale ratio"
+    },
+    {
+      "id": "W-286",
+      "word": "토론",
+      "hanja": "討論",
+      "hanja_array": [
+        "討",
+        "論"
+      ],
+      "meaning": "의견을 주고받음",
+      "levels": [
+        "준5급"
+      ],
+      "english": "exchanging opinions / discussion"
+    },
+    {
+      "id": "W-287",
+      "word": "퇴적",
+      "hanja": "堆積",
+      "hanja_array": [
+        "堆",
+        "積"
+      ],
+      "meaning": "쌓임",
+      "levels": [
+        "준5급"
+      ],
+      "english": "accumulation / stacking"
+    },
+    {
+      "id": "W-288",
+      "word": "투표",
+      "hanja": "投票",
+      "hanja_array": [
+        "投",
+        "票"
+      ],
+      "meaning": "표를 던져 의사를 나타냄",
+      "levels": [
+        "준5급"
+      ],
+      "english": "voting by ballot"
+    },
+    {
+      "id": "W-289",
+      "word": "판매",
+      "hanja": "販賣",
+      "hanja_array": [
+        "販",
+        "賣"
+      ],
+      "meaning": "물건을 팖",
+      "levels": [
+        "준5급"
+      ],
+      "english": "selling goods"
+    },
+    {
+      "id": "W-290",
+      "word": "편견",
+      "hanja": "偏見",
+      "hanja_array": [
+        "偏",
+        "見"
+      ],
+      "meaning": "치우친 생각",
+      "levels": [
+        "준5급"
+      ],
+      "english": "biased thinking / prejudice"
+    },
+    {
+      "id": "W-291",
+      "word": "편지",
+      "hanja": "便紙",
+      "hanja_array": [
+        "便",
+        "紙"
+      ],
+      "meaning": "글을 써 보내는 것",
+      "levels": [
+        "준5급"
+      ],
+      "english": "sending written work / submission"
+    },
+    {
+      "id": "W-292",
+      "word": "한반도",
+      "hanja": "韓半島",
+      "hanja_array": [
+        "韓",
+        "半",
+        "島"
+      ],
+      "meaning": "한국이 위치한 반도",
+      "levels": [
+        "준5급"
+      ],
+      "english": "Korean peninsula"
+    },
+    {
+      "id": "W-293",
+      "word": "화석",
+      "hanja": "化石",
+      "hanja_array": [
+        "化",
+        "石"
+      ],
+      "meaning": "옛 생물의 흔적이 굳어진 것",
+      "levels": [
+        "준5급"
+      ],
+      "english": "fossil"
+    },
+    {
+      "id": "W-294",
+      "word": "화음",
+      "hanja": "和音",
+      "hanja_array": [
+        "和",
+        "音"
+      ],
+      "meaning": "어울려 나는 소리",
+      "levels": [
+        "준5급"
+      ],
+      "english": "harmonious sound / resonance"
+    },
+    {
+      "id": "W-295",
+      "word": "화제",
+      "hanja": "話題",
+      "hanja_array": [
+        "話",
+        "題"
+      ],
+      "meaning": "이야기의 주제",
+      "levels": [
+        "준5급"
+      ],
+      "english": "story theme / subject"
+    }
+  ]
+}
